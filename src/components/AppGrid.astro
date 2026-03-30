@@ -1,0 +1,24 @@
+---
+import AppCard from "./AppCard.astro";
+import apps from "../data/apps.json";
+---
+
+<section id="apps" class="py-16 sm:py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-(--color-primary) mb-4">Our Apps</h2>
+    <p class="text-(--color-text-secondary) text-center max-w-2xl mx-auto mb-12">
+      Free tools designed to help you make a positive impact in your community and beyond.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      {apps.map((app) => (
+        <AppCard
+          name={app.name}
+          description={app.description}
+          icon={app.icon}
+          appleUrl={app.appleUrl}
+          googleUrl={app.googleUrl}
+        />
+      ))}
+    </div>
+  </div>
+</section>

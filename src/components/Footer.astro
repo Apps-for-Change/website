@@ -1,0 +1,40 @@
+---
+const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+const ein = import.meta.env.PUBLIC_NONPROFIT_EIN || "XX-XXXXXXX";
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-(--color-text) text-gray-400 py-12">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="text-white font-bold text-lg mb-3">{name}</h3>
+        <p class="text-sm">EIN: {ein}</p>
+        <p class="text-sm mt-1">A 501(c)(3) nonprofit organization</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#apps" class="hover:text-white transition-colors">Our Apps</a></li>
+          <li><a href="#reviews" class="hover:text-white transition-colors">Reviews</a></li>
+          <li><a href="#donate" class="hover:text-white transition-colors">Donate</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Legal</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+          <li><a href="mailto:contact@example.org" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 pt-8 text-center text-sm">
+      <p>&copy; {year} {name}. All rights reserved.</p>
+      <p class="mt-2 text-gray-500">Made with love for a better world.</p>
+    </div>
+  </div>
+</footer>

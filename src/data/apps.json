@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CommunityConnect",
+    "description": "Connecting volunteers with local nonprofits and community projects. Find meaningful opportunities to give back in your neighborhood.",
+    "icon": "/images/app-icon-community.svg",
+    "appleId": "id1234567890",
+    "appleUrl": "https://apps.apple.com/app/communityconnect/id1234567890",
+    "googlePackage": "org.appsforchange.communityconnect",
+    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.communityconnect",
+    "featured": true
+  },
+  {
+    "name": "ImpactTracker",
+    "description": "Track and visualize the real world impact of your charitable giving. See how your donations are making a difference in communities worldwide.",
+    "icon": "/images/app-icon-impact.svg",
+    "appleId": "id1234567891",
+    "appleUrl": "https://apps.apple.com/app/impacttracker/id1234567891",
+    "googlePackage": "org.appsforchange.impacttracker",
+    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.impacttracker",
+    "featured": true
+  },
+  {
+    "name": "GreenSteps",
+    "description": "Small daily actions for a more sustainable lifestyle. Set goals, build eco friendly habits, and join a community committed to positive change.",
+    "icon": "/images/app-icon-green.svg",
+    "appleId": "id1234567892",
+    "appleUrl": "https://apps.apple.com/app/greensteps/id1234567892",
+    "googlePackage": "org.appsforchange.greensteps",
+    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.greensteps",
+    "featured": false
+  }
+]

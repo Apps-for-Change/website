@@ -1,0 +1,35 @@
+---
+interface Props {
+  name: string;
+  description: string;
+  icon: string;
+  appleUrl?: string;
+  googleUrl?: string;
+}
+
+const { name, description, icon, appleUrl, googleUrl } = Astro.props;
+---
+
+<article class="bg-(--color-card) rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+  <img
+    src={icon}
+    alt={`${name} app icon`}
+    class="w-20 h-20 rounded-2xl mb-4"
+    width="80"
+    height="80"
+  />
+  <h3 class="text-xl font-bold text-(--color-text) mb-2">{name}</h3>
+  <p class="text-(--color-text-secondary) mb-6 flex-1">{description}</p>
+  <div class="flex flex-wrap gap-3 justify-center">
+    {appleUrl && (
+      <a href={appleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Download ${name} on the App Store`}>
+        <img src="/badges/app-store-badge.svg" alt="Download on the App Store" class="h-10" width="120" height="40" />
+      </a>
+    )}
+    {googleUrl && (
+      <a href={googleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Get ${name} on Google Play`}>
+        <img src="/badges/google-play-badge.png" alt="Get it on Google Play" class="h-10" width="135" height="40" />
+      </a>
+    )}
+  </div>
+</article>

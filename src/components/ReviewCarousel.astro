@@ -1,0 +1,51 @@
+---
+import ReviewCard from "./ReviewCard.astro";
+import reviews from "../data/reviews.json";
+
+const displayReviews = reviews.slice(0, 12);
+---
+
+<section id="reviews" class="py-16 sm:py-20 lg:py-24 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-(--color-primary) mb-4">What People Are Saying</h2>
+    <p class="text-(--color-text-secondary) text-center max-w-2xl mx-auto mb-12">
+      Real feedback from people using our apps to make a difference.
+    </p>
+
+    {displayReviews.length === 0 ? (
+      <p class="text-center text-(--color-text-secondary) py-12 text-lg">
+        Reviews coming soon! Download our apps and be the first to share your experience.
+      </p>
+    ) : (
+      <>
+        <div class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory md:hidden">
+          {displayReviews.map((review) => (
+            <div class="min-w-[280px] max-w-[320px] snap-start flex-shrink-0">
+              <ReviewCard
+                author={review.author}
+                rating={review.rating}
+                title={review.title}
+                text={review.text}
+                store={review.store as "apple" | "google"}
+                date={review.date}
+              />
+            </div>
+          ))}
+        </div>
+
+        <div class="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {displayReviews.map((review) => (
+            <ReviewCard
+              author={review.author}
+              rating={review.rating}
+              title={review.title}
+              text={review.text}
+              store={review.store as "apple" | "google"}
+              date={review.date}
+            />
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</section>

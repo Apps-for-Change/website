@@ -1,0 +1,65 @@
+---
+const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+---
+
+<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200" aria-label="Main navigation">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="#" class="text-xl font-bold text-(--color-primary)">{name}</a>
+
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#apps" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Apps</a>
+        <a href="#reviews" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Reviews</a>
+        <a href="#donate" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-semibold px-5 py-2 rounded-lg transition-colors">Donate</a>
+      </div>
+
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 bg-white">
+    <div class="px-4 py-3 space-y-2">
+      <a href="#apps" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Apps</a>
+      <a href="#reviews" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Reviews</a>
+      <a href="#donate" class="block py-2 bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-semibold px-4 rounded-lg text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const btn = document.getElementById("mobile-menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  const icon = document.getElementById("menu-icon");
+
+  btn?.addEventListener("click", () => {
+    const isOpen = !menu?.classList.contains("hidden");
+    menu?.classList.toggle("hidden");
+    btn.setAttribute("aria-expanded", String(!isOpen));
+    if (icon) {
+      icon.setAttribute(
+        "d",
+        isOpen ? "M4 6h16M4 12h16M4 18h16" : "M6 18L18 6M6 6l12 12"
+      );
+    }
+  });
+
+  menu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      menu.classList.add("hidden");
+      btn?.setAttribute("aria-expanded", "false");
+      if (icon) {
+        icon.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
+      }
+    });
+  });
+</script>

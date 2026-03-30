@@ -1,0 +1,19 @@
+{
+  "name": "nonprofit-landing-site",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch-reviews": "node scripts/fetch-reviews.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "app-store-scraper": "^0.18.0",
+    "astro": "^6.1.2",
+    "google-play-scraper": "^10.1.2",
+    "tailwindcss": "^4.2.2"
+  }
+}

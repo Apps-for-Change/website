@@ -1,0 +1,51 @@
+---
+const donateUrl = import.meta.env.PUBLIC_STRIPE_DONATE_URL;
+const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+const hasStripeLink = donateUrl && donateUrl !== "https://donate.stripe.com/your-link-here";
+---
+
+<section id="donate" class="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-(--color-primary) to-(--color-primary-light) text-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Support Our Mission</h2>
+    <p class="text-lg text-white/85 mb-8 max-w-xl mx-auto">
+      Your generosity keeps our apps free and accessible to everyone. Every contribution helps us build technology that strengthens communities and creates lasting change.
+    </p>
+
+    <div class="flex items-center justify-center gap-6 mb-8 text-sm text-white/70">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        </svg>
+        <span>Secure payment via Stripe</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+        <span>100% goes to our mission</span>
+      </div>
+    </div>
+
+    {hasStripeLink ? (
+      <a
+        href={donateUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-bold text-lg px-10 py-4 rounded-lg transition-colors shadow-lg"
+      >
+        Donate Now
+      </a>
+    ) : (
+      <div class="bg-white/10 rounded-lg p-6 max-w-md mx-auto">
+        <p class="text-white/90 font-semibold mb-2">Donation link coming soon</p>
+        <p class="text-white/60 text-sm">
+          Site owner: set the <code class="bg-white/10 px-1.5 py-0.5 rounded">PUBLIC_STRIPE_DONATE_URL</code> environment variable to enable donations.
+        </p>
+      </div>
+    )}
+
+    <p class="mt-6 text-sm text-white/50">
+      {name} is a registered 501(c)(3) nonprofit. Your donation may be tax deductible.
+    </p>
+  </div>
+</section>

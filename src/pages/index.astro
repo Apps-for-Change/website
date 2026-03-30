@@ -1,0 +1,24 @@
+---
+import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import AppGrid from "../components/AppGrid.astro";
+import ReviewCarousel from "../components/ReviewCarousel.astro";
+import DonateSection from "../components/DonateSection.astro";
+import Footer from "../components/Footer.astro";
+
+const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+const tagline = import.meta.env.PUBLIC_NONPROFIT_TAGLINE || "Empowering communities through technology";
+---
+
+<BaseLayout title={name} description={tagline}>
+  <Navbar />
+  <main>
+    <Hero />
+    <AppGrid />
+    <ReviewCarousel />
+    <DonateSection />
+  </main>
+  <Footer />
+</BaseLayout>
