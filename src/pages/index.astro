@@ -5,19 +5,21 @@ import Navbar from "../components/Navbar.astro";
 import Hero from "../components/Hero.astro";
 import AppGrid from "../components/AppGrid.astro";
 import ReviewCarousel from "../components/ReviewCarousel.astro";
+import WhatWeDo from "../components/WhatWeDo.astro";
 import DonateSection from "../components/DonateSection.astro";
 import Footer from "../components/Footer.astro";
-
-const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
-const tagline = import.meta.env.PUBLIC_NONPROFIT_TAGLINE || "Empowering communities through technology";
 ---
 
-<BaseLayout title={name} description={tagline}>
+<BaseLayout
+  title="Apps for Change"
+  description="Apps for Change is a nonprofit that develops mobile apps empowering people to achieve their goals, advocate for themselves, and care for themselves and others."
+>
   <Navbar />
   <main>
     <Hero />
     <AppGrid />
     <ReviewCarousel />
+    <WhatWeDo />
     <DonateSection />
   </main>
   <Footer />

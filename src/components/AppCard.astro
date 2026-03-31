@@ -22,13 +22,15 @@ const { name, description, icon, appleUrl, googleUrl } = Astro.props;
   <p class="text-(--color-text-secondary) mb-6 flex-1">{description}</p>
   <div class="flex flex-wrap gap-3 justify-center">
     {appleUrl && (
-      <a href={appleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Download ${name} on the App Store`}>
-        <img src="/badges/app-store-badge.svg" alt="Download on the App Store" class="h-10" width="120" height="40" />
+      <a href={appleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Download ${name} on the App Store`} class="inline-flex items-center gap-2 bg-(--color-primary) text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-(--color-primary-light) transition-colors">
+        <img src="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/Apple-App-Store.png?w=24&ssl=1" alt="" class="w-5 h-5 rounded-full" width="20" height="20" />
+        App Store
       </a>
     )}
     {googleUrl && (
-      <a href={googleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Get ${name} on Google Play`}>
-        <img src="/badges/google-play-badge.png" alt="Get it on Google Play" class="h-10" width="135" height="40" />
+      <a href={googleUrl} target="_blank" rel="noopener noreferrer" aria-label={`Get ${name} on Google Play`} class="inline-flex items-center gap-2 bg-(--color-primary) text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-(--color-primary-light) transition-colors">
+        <img src="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/Google-Play-Store.jpg?w=24&ssl=1" alt="" class="w-5 h-5 rounded-full" width="20" height="20" />
+        Google Play
       </a>
     )}
   </div>

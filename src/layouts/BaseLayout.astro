@@ -5,7 +5,7 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const siteName = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+const siteName = "Apps for Change";
 ---
 
 <!doctype html>
@@ -16,12 +16,14 @@ const siteName = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image" content="https://appsforchange.org/wp-content/uploads/2026/02/Official-AFC-Logo-White.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/cropped-Official-AFC-Logo-White-2.png?fit=32%2C32&ssl=1" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/cropped-Official-AFC-Logo-White-2.png?fit=192%2C192&ssl=1" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/cropped-Official-AFC-Logo-White-2.png?fit=180%2C180&ssl=1" />
     <title>{title} | {siteName}</title>
   </head>
   <body class="min-h-screen bg-(--color-bg)">
