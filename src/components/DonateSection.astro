@@ -1,6 +1,9 @@
 ---
 const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
 const hasStripe = !!import.meta.env.STRIPE_SECRET_KEY;
+const donateUrl = import.meta.env.PUBLIC_STRIPE_DONATE_URL;
+const hasStripeLink = donateUrl && donateUrl !== "https://donate.stripe.com/your-link-here";
+const wpDonateBase = "https://appsforchange.org/?membershipId=2028";
 
 const frequencies = [
   { id: "onetime", label: "One-time" },
