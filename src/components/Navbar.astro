@@ -1,16 +1,26 @@
 ---
-const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
+const name = "Apps for Change";
 ---
 
 <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200" aria-label="Main navigation">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
-      <a href="#" class="text-xl font-bold text-(--color-primary)">{name}</a>
+      <a href="#" class="flex items-center gap-3">
+        <img
+          src="https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/cropped-Official-AFC-Logo-White-2.png?fit=40%2C40&ssl=1"
+          alt="Apps for Change logo"
+          class="w-8 h-8 rounded"
+          width="32"
+          height="32"
+        />
+        <span class="text-xl font-bold text-(--color-primary)">{name}</span>
+      </a>
 
       <div class="hidden md:flex items-center gap-8">
-        <a href="#apps" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Apps</a>
+        <a href="#apps" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Our Apps</a>
         <a href="#reviews" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Reviews</a>
-        <a href="#donate" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-semibold px-5 py-2 rounded-lg transition-colors">Donate</a>
+        <a href="#what-we-do" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">What We Do</a>
+        <a href="#donate" class="bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-5 py-2 rounded-full transition-colors">Donate</a>
       </div>
 
       <button
@@ -29,9 +39,10 @@ const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
 
   <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 bg-white">
     <div class="px-4 py-3 space-y-2">
-      <a href="#apps" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Apps</a>
+      <a href="#apps" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Our Apps</a>
       <a href="#reviews" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Reviews</a>
-      <a href="#donate" class="block py-2 bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-semibold px-4 rounded-lg text-center">Donate</a>
+      <a href="#what-we-do" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">What We Do</a>
+      <a href="#donate" class="block py-2 bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-4 rounded-full text-center">Donate</a>
     </div>
   </div>
 </nav>

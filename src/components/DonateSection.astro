@@ -11,19 +11,39 @@ const frequencies = [
 const presets = [10, 25, 50, 100];
 ---
 
-<section id="donate" class="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-(--color-primary) to-(--color-primary-light) text-white">
+<section id="donate" class="py-16 sm:py-20 lg:py-24 bg-(--color-primary) text-white">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Support Our Mission</h2>
-    <p class="text-lg text-white/85 mb-8 max-w-xl mx-auto">
-      Your generosity keeps our apps free and accessible to everyone. Every contribution helps us build technology that strengthens communities and creates lasting change.
+    <h2 class="text-3xl sm:text-4xl mb-4" style="font-family: 'Young Serif', serif;">Donations</h2>
+    <p class="text-lg text-white/85 mb-10 max-w-xl mx-auto">
+      Your donation helps us keep our apps free on the App Store and Google Play, ensuring that everyone who needs them can access and use them at no cost.
     </p>
 
-    <div class="flex items-center justify-center gap-6 mb-8 text-sm text-white/70">
+    {hasStripeLink ? (
+      <a
+        href={donateUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold text-lg px-10 py-4 rounded-full transition-colors shadow-lg"
+      >
+        Donate Now
+      </a>
+    ) : (
+      <div class="max-w-md mx-auto">
+        <div class="flex flex-wrap justify-center gap-3 mb-6">
+          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$5</a>
+          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$15</a>
+          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$100</a>
+        </div>
+        <p class="text-white/60 text-sm">One-time donation. Monthly and yearly options available.</p>
+      </div>
+    )}
+
+    <div class="flex items-center justify-center gap-6 mt-8 text-sm text-white/60">
       <div class="flex items-center gap-2">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
-        <span>Secure payment via Stripe</span>
+        <span>Secure payment</span>
       </div>
       <div class="flex items-center gap-2">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

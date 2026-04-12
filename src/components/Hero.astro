@@ -1,37 +1,42 @@
 ---
-const tagline = import.meta.env.PUBLIC_NONPROFIT_TAGLINE || "Empowering communities through technology";
 ---
 
-<section class="relative bg-gradient-to-br from-(--color-primary) to-(--color-primary-light) text-white py-20 sm:py-28 lg:py-32">
-  <div class="absolute inset-0 opacity-10" aria-hidden="true">
-    <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-      <pattern id="hero-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-        <circle cx="20" cy="20" r="1.5" fill="currentColor" />
-      </pattern>
-      <rect width="100%" height="100%" fill="url(#hero-pattern)" />
-    </svg>
-  </div>
-
-  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-      Technology for Good,<br />Built for Everyone
-    </h1>
-    <p class="text-lg sm:text-xl text-white/85 max-w-2xl mx-auto mb-10">
-      {tagline}. Our free, open source apps help people volunteer, give, and live more sustainably.
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a
-        href="#apps"
-        class="inline-block bg-white text-(--color-primary) font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors text-center"
-      >
-        Explore Our Apps
-      </a>
-      <a
-        href="#donate"
-        class="inline-block bg-(--color-accent) hover:bg-(--color-accent-hover) text-white font-semibold px-8 py-3 rounded-lg transition-colors text-center"
-      >
-        Support Our Mission
-      </a>
+<section class="relative bg-(--color-bg) py-16 sm:py-20 lg:py-24">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row items-center gap-10 lg:gap-16">
+      <div class="md:w-1/2">
+        <img
+          src="https://appsforchange.org/wp-content/uploads/2026/02/Official-AFC-Logo-White.png"
+          alt="Apps for Change logo"
+          class="w-full max-w-md mx-auto"
+          width="1024"
+          height="1024"
+          style="aspect-ratio: 3/4; object-fit: cover;"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="md:w-1/2">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl text-(--color-text) mb-6" style="font-family: 'Young Serif', serif;">
+          Driving Meaningful Change, One App at a Time.
+        </h2>
+        <p class="text-lg text-(--color-text-secondary) mb-8">
+          We are here to help. Have an app idea? Send it our way and we can work together to build it. Apps built by the community, for the community. Self-help, help others, let us help you make your idea come to life. Download one of our apps today and start using them. They're free, always.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a
+            href="#apps"
+            class="inline-block bg-(--color-primary) text-white font-semibold px-8 py-3 rounded-full hover:bg-(--color-primary-light) transition-colors text-center"
+          >
+            Explore Our Apps
+          </a>
+          <a
+            href="#donate"
+            class="inline-block bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-semibold px-8 py-3 rounded-full transition-colors text-center"
+          >
+            Support Our Mission
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>

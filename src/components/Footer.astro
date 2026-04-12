@@ -1,6 +1,4 @@
 ---
-const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
-const ein = import.meta.env.PUBLIC_NONPROFIT_EIN || "XX-XXXXXXX";
 const year = new Date().getFullYear();
 
 const socials = [
@@ -12,7 +10,7 @@ const socials = [
 ].filter(s => s.url);
 ---
 
-<footer class="bg-(--color-text) text-gray-400 py-12">
+<footer class="bg-(--color-primary) text-gray-400 py-12">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
       <div>
@@ -45,27 +43,26 @@ const socials = [
       </div>
 
       <div>
-        <h3 class="text-white font-semibold mb-3">Links</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="#apps" class="hover:text-white transition-colors">Our Apps</a></li>
-          <li><a href="#reviews" class="hover:text-white transition-colors">Reviews</a></li>
-          <li><a href="#donate" class="hover:text-white transition-colors">Donate</a></li>
-        </ul>
+        <h3 class="text-white font-semibold mb-3 text-sm">Address</h3>
+        <p class="text-sm">1670 S Robert Street</p>
+        <p class="text-sm">#131</p>
+        <p class="text-sm">West Saint Paul, MN 55118</p>
       </div>
 
       <div>
-        <h3 class="text-white font-semibold mb-3">Legal</h3>
+        <h3 class="text-white font-semibold mb-3 text-sm">Menu</h3>
         <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-          <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
-          <li><a href="mailto:contact@example.org" class="hover:text-white transition-colors">Contact Us</a></li>
+          <li><a href="https://appsforchange.org/" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="https://appsforchange.org/about/" class="hover:text-white transition-colors">About us</a></li>
+          <li><a href="https://appsforchange.org/get-involved/" class="hover:text-white transition-colors">Get involved</a></li>
+          <li><a href="https://appsforchange.org/apps/" class="hover:text-white transition-colors">Our apps</a></li>
+          <li><a href="https://appsforchange.org/contact/" class="hover:text-white transition-colors">Contact us</a></li>
         </ul>
       </div>
     </div>
 
     <div class="border-t border-gray-700 pt-8 text-center text-sm">
-      <p>&copy; {year} {name}. All rights reserved.</p>
-      <p class="mt-2 text-gray-500">Made with love for a better world.</p>
+      <p>&copy; {year} Apps for Change. All rights reserved.</p>
     </div>
   </div>
 </footer>
