@@ -1,32 +1,26 @@
 [
   {
-    "name": "CommunityConnect",
-    "description": "Connecting volunteers with local nonprofits and community projects. Find meaningful opportunities to give back in your neighborhood.",
-    "icon": "/images/app-icon-community.svg",
-    "appleId": "id1234567890",
-    "appleUrl": "https://apps.apple.com/app/communityconnect/id1234567890",
-    "googlePackage": "org.appsforchange.communityconnect",
-    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.communityconnect",
+    "name": "Goal Getter",
+    "description": "A simple, powerful goal-setting app that helps you turn ideas into action. Break big goals into clear steps, track progress over time, and stay motivated.",
+    "icon": "/images/goal-getter.png",
     "featured": true
   },
   {
-    "name": "ImpactTracker",
-    "description": "Track and visualize the real world impact of your charitable giving. See how your donations are making a difference in communities worldwide.",
-    "icon": "/images/app-icon-impact.svg",
-    "appleId": "id1234567891",
-    "appleUrl": "https://apps.apple.com/app/impacttracker/id1234567891",
-    "googlePackage": "org.appsforchange.impacttracker",
-    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.impacttracker",
+    "name": "Care About You",
+    "description": "A kindness generator that makes staying connected effortless. Get simple, thoughtful ideas to check in, show appreciation, and brighten someone's day.",
+    "icon": "/images/care-about-you.png",
     "featured": true
   },
   {
-    "name": "GreenSteps",
-    "description": "Small daily actions for a more sustainable lifestyle. Set goals, build eco friendly habits, and join a community committed to positive change.",
-    "icon": "/images/app-icon-green.svg",
-    "appleId": "id1234567892",
-    "appleUrl": "https://apps.apple.com/app/greensteps/id1234567892",
-    "googlePackage": "org.appsforchange.greensteps",
-    "googleUrl": "https://play.google.com/store/apps/details?id=org.appsforchange.greensteps",
+    "name": "Advocate's Compass",
+    "description": "A supportive planning application that helps individuals find their voice and navigate everyday advocacy. It guides users through personalized plans, clear goals, and real-life scenarios.",
+    "icon": "/images/advocates-compass.png",
+    "featured": true
+  },
+  {
+    "name": "Beat the Craving",
+    "description": "This app helps individuals overcome cravings by tracking their progress and providing coping strategies. Users can customize a list of options like praying or calling a friend.",
+    "icon": "/images/beat-the-craving.jpg",
     "featured": false
   }
 ]

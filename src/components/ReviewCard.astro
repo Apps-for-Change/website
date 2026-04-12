@@ -13,8 +13,8 @@ const { author, rating, title, text, store, date } = Astro.props;
 const displayText = text.length > 200 ? text.slice(0, 200) + "\u2026" : text;
 
 const storeIcon = store === "apple"
-  ? "https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/Apple-App-Store.png?w=60&ssl=1"
-  : "https://i0.wp.com/appsforchange.org/wp-content/uploads/2026/02/Google-Play-Store.jpg?w=60&ssl=1";
+  ? "/images/apple-app-store.png"
+  : "/images/google-play-store.jpg";
 
 const formattedDate = new Date(date).toLocaleDateString("en-US", {
   month: "short",

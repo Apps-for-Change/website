@@ -18,7 +18,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("https://fonts.wp.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ2t_1EcYaQ7F.woff2") format("woff2");
+  src: url("/fonts/young-serif.woff2") format("woff2");
 }
 
 @font-face {
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 300 600;
   font-display: swap;
-  src: url("https://fonts.wp.com/s/bitter/v39/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCLrEXFh2reU.woff2") format("woff2");
+  src: url("/fonts/bitter.woff2") format("woff2");
 }
 
 html {

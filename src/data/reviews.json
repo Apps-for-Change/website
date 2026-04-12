@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "author": "Aya Nakamura",
+    "rating": 5,
+    "title": "Life changing",
+    "text": "This app changed how I set goals and treated others with kindness every day.",
+    "store": "apple",
+    "date": "2026-01-15"
+  },
+  {
+    "author": "Mateo García",
+    "rating": 5,
+    "title": "Empowering",
+    "text": "I learned to speak up for myself and feel supported by a caring community.",
+    "store": "google",
+    "date": "2026-02-10"
+  }
+]

@@ -3,8 +3,6 @@ const name = import.meta.env.PUBLIC_NONPROFIT_NAME || "Apps for Change";
 const hasStripe = !!import.meta.env.STRIPE_SECRET_KEY;
 const donateUrl = import.meta.env.PUBLIC_STRIPE_DONATE_URL;
 const hasStripeLink = donateUrl && donateUrl !== "https://donate.stripe.com/your-link-here";
-const wpDonateBase = "https://appsforchange.org/?membershipId=2028";
-
 const frequencies = [
   { id: "onetime", label: "One-time" },
   { id: "monthly", label: "Monthly" },
@@ -30,16 +28,7 @@ const presets = [10, 25, 50, 100];
       >
         Donate Now
       </a>
-    ) : (
-      <div class="max-w-md mx-auto">
-        <div class="flex flex-wrap justify-center gap-3 mb-6">
-          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$5</a>
-          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$15</a>
-          <a href={`${wpDonateBase}&plan=234`} target="_blank" rel="noopener noreferrer" class="bg-(--color-accent) hover:bg-(--color-accent-hover) text-(--color-primary) font-bold px-6 py-3 rounded-full transition-colors">$100</a>
-        </div>
-        <p class="text-white/60 text-sm">One-time donation. Monthly and yearly options available.</p>
-      </div>
-    )}
+    ) : null}
 
     <div class="flex items-center justify-center gap-6 mt-8 text-sm text-white/60">
       <div class="flex items-center gap-2">
