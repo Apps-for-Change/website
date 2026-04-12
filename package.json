@@ -10,10 +10,13 @@
     "fetch-reviews": "node scripts/fetch-reviews.mjs"
   },
   "dependencies": {
+    "@astrojs/vercel": "^10.0.3",
+    "@stripe/stripe-js": "^9.0.1",
     "@tailwindcss/vite": "^4.2.2",
     "app-store-scraper": "^0.18.0",
     "astro": "^6.1.2",
     "google-play-scraper": "^10.1.2",
+    "stripe": "^21.0.1",
     "tailwindcss": "^4.2.2"
   }
 }
