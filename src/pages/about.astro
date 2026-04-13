@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout
+  title="About"
+  description="Apps for Change is a Minnesota 501(c)(3) nonprofit building free mobile tools that help people reach goals, advocate for themselves, and care for others."
+>
+  <Navbar />
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <h1 class="text-3xl sm:text-4xl mb-2">About Apps for Change</h1>
+    <p class="text-(--color-text-secondary) mb-8">A Minnesota 501(c)(3) nonprofit driving meaningful change, one app at a time.</p>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Our Mission</h2>
+      <p>
+        Apps for Change creates mobile tools that enable people to reach their goals, advocate for themselves, and care for others in their communities. We develop educational tools, applications, and community-based programs that promote self-advocacy, goal achievement, community engagement, and the reduction of poverty, dependence, and social despair.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Our Philosophy</h2>
+      <p class="mb-3">
+        We operate on a simple principle: <strong>structured clarity builds confident action</strong>. Technology should increase agency, not dependence. Our apps provide the structure people need to translate intentions into measurable action.
+      </p>
+      <p>
+        Every feature we build is guided by one question — does this help someone take the next step on their own?
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">How We Got Here</h2>
+      <p class="mb-3">
+        Our work began as a personal development framework examining eight dimensions of a balanced life: relationships, purpose, physical health, learning, service, environment, emotional well-being, and finances. What started as worksheets grew into digital systems.
+      </p>
+      <p>
+        Along the way, we saw gaps in Minnesota's disability services sector — individuals needed better self-advocacy support and clearer tools to plan their own lives. We built apps to fill those gaps, and the work expanded from there.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">What We've Built</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>A self-advocacy planning tool aligned with Minnesota's 245D services</li>
+        <li>A relationship-based kindness planner for nurturing meaningful connections</li>
+        <li>A holistic goal-setting system that converts imbalance into measurable action</li>
+        <li>Educational tools that promote independence and self-determination</li>
+      </ul>
+      <p class="mt-4">
+        See our current apps on the <a href="/#apps" class="text-(--color-accent) hover:underline">home page</a>.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Privacy by Design</h2>
+      <p>
+        All user data is stored locally on your device. We don't run a cloud backend for your personal information, which means your goals, entries, and responses never leave your phone. Read the full <a href="/privacy" class="text-(--color-accent) hover:underline">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Organization</h2>
+      <p class="mb-3">
+        Apps for Change is a Minnesota nonprofit corporation with formal governance, including:
+      </p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>A three-member board</li>
+        <li>Quarterly board meetings</li>
+        <li>A conflict-of-interest policy</li>
+        <li>Bylaws that protect mission continuity</li>
+        <li>An asset dissolution clause directing any remaining assets to other 501(c)(3) organizations</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Get Involved</h2>
+      <p>
+        We build with the communities we serve. If you'd like to volunteer, test an app, or share an idea, head to our <a href="/get-involved" class="text-(--color-accent) hover:underline">Get Involved</a> page or email <a href="mailto:info@appsforchange.org" class="text-(--color-accent) hover:underline">info@appsforchange.org</a>.
+      </p>
+    </section>
+
+    <p class="text-center text-(--color-text-secondary) italic mt-12">Apps for Change — Empowering Everyday People Through Technology</p>
+  </main>
+  <Footer />
+</BaseLayout>
