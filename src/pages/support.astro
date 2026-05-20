@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout
+  title="Support"
+  description="Get help with Apps for Change apps. Contact our team by email for questions, troubleshooting, feedback, or accessibility needs."
+>
+  <Navbar />
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <h1 class="text-3xl sm:text-4xl mb-2">Support</h1>
+    <p class="text-(--color-text-secondary) mb-8">We're here to help.</p>
+
+    <section class="mb-10">
+      <p>
+        Apps for Change builds free mobile apps to support self-advocacy, resilience, goal-setting, and caregiving — and we want every person using our apps to have a smooth, supportive experience. If you run into a problem, have a question, or want to share feedback, we'd love to hear from you.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">How to Reach Us</h2>
+      <p class="mb-3">The best way to get support is by email:</p>
+      <p class="mb-3">
+        <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>
+      </p>
+      <p>
+        A real person from our team will read your message and respond within 24–48 hours. We do our best to reply even sooner whenever possible.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">What to Include in Your Message</h2>
+      <p class="mb-3">To help us respond as quickly and helpfully as possible, please consider including:</p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>The name of the app you're using</li>
+        <li>A short description of what you were trying to do</li>
+        <li>What happened (and what you expected to happen)</li>
+        <li>The type of device you're using (for example, iPhone or Android)</li>
+        <li>Any screenshots, if you're comfortable sharing them</li>
+      </ul>
+      <p>You don't need to include all of this — even a quick note is enough to get us started.</p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">What We Can Help With</h2>
+      <p class="mb-3">We're happy to assist with things like:</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Questions about how an app works</li>
+        <li>Troubleshooting issues or unexpected behavior</li>
+        <li>Suggestions for new features or improvements</li>
+        <li>Accessibility needs and accommodations</li>
+        <li>General questions about Apps for Change</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">A Note on Your Privacy</h2>
+      <p>
+        Your privacy matters to us. All data created within our apps is stored locally on your own device — it is never transmitted to our servers or stored in the cloud. When you contact support, please only share information you're comfortable sharing by email. We will never ask you for passwords, payment information, or sensitive personal details.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">Community Voice</h2>
+      <p>
+        Apps for Change is community-powered. Your feedback shapes what we build next. In addition to email support, we host periodic community town halls where you can preview upcoming features, share ideas, and help guide the direction of our work. Watch our website and social channels for upcoming dates.
+      </p>
+    </section>
+
+    <p class="text-center text-(--color-text-secondary) italic mt-12">Apps for Change — Empowering Everyday People Through Technology</p>
+  </main>
+  <Footer />
+</BaseLayout>
