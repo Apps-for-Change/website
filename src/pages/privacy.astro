@@ -11,138 +11,194 @@ import Footer from "../components/Footer.astro";
   <Navbar />
   <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
     <h1 class="text-3xl sm:text-4xl mb-2">Privacy Policy</h1>
-    <p class="text-(--color-text-secondary) mb-8">Effective Date: March 2026</p>
+    <p class="text-(--color-text-secondary) mb-8">Effective Date: September 19, 2026</p>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">Our Commitment to You</h2>
       <p>
-        Apps for Change is a Minnesota-based 501(c)(3) nonprofit. We build free mobile apps to help everyday people build resilience, practice self-advocacy, support caregiving, and improve their lives. Your privacy matters deeply to us. This policy explains in plain language what we collect, why, and how we protect your information.
+        Apps for Change is a Minnesota-based 501(c)(3) nonprofit. We build free mobile apps to help people
+        reach goals, practice self-advocacy, stay connected, and build healthier habits. This policy explains
+        in plain language what each app stores, what is synced to our servers, and what is never collected.
       </p>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">1. Who We Are</h2>
       <p>
-        Apps for Change is a nonprofit organization incorporated in Minnesota. We build free mobile applications for community members — not for sale, not for profit. Our apps are provided at no cost and are designed with your wellbeing and privacy in mind.
+        Apps for Change is a nonprofit organization incorporated in Minnesota. Our apps are free. We do not
+        sell, rent, or trade personal information, and we do not use your data for advertising.
       </p>
-      <p class="mt-2">Contact: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a></p>
+      <p class="mt-2">
+        Website: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a>
+      </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">2. What Information We Collect</h2>
-      <p class="mb-4">We collect only what is necessary to make our apps work. Depending on which app you use, we may collect:</p>
+      <h2 class="text-xl sm:text-2xl mb-3">2. How Data Works in Each App</h2>
+      <p class="mb-4">
+        Our apps do <strong>not</strong> all work the same way. Please read the section for the app you use.
+      </p>
 
-      <h3 class="text-lg font-semibold mb-2">Information You Give Us</h3>
+      <h3 class="text-lg font-semibold mb-2">Advocate's Compass</h3>
+      <p class="mb-4">
+        Meeting prep notes, skills progress, and preferences stay <strong>on your device</strong>
+        (AsyncStorage). There is no account, no cloud backup, and no cloud AI. Advocate Now uses built-in
+        offline templates. Uninstalling the app removes this data.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">Goal Getter</h3>
+      <p class="mb-4">
+        Creating an account (email or sign-in provider) is required so your goals, milestones, tasks,
+        calendar items, and life-area progress can sync to our backend. That data is stored on our hosted
+        application server so it is available when you sign in on another device.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">Care About You</h3>
+      <p class="mb-4">
+        An account is required. Contacts you add, planned acts of kindness, and completion status sync to
+        our backend. Optional <strong>AI suggestions</strong> send the selected contact’s name, your notes,
+        and recent task history to a language-model provider so the app can suggest a next kindness. You
+        trigger this only when you tap to generate insights or suggestions.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">Beat the Craving</h3>
+      <p class="mb-4">
+        An account is required. Your craving counter and coping-option list (including custom options) sync
+        to our backend so they persist across devices. The counter increases when you choose a coping
+        option, not when you merely open the app. This is wellness tracking, not medical advice
+        and not a diagnostic tool.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">3. What Information We Collect</h2>
+
+      <h3 class="text-lg font-semibold mb-2">Information you give us</h3>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Your name or a username (if you create an account or profile)</li>
-        <li>Your email address (if you choose to register or contact us)</li>
-        <li>Responses or entries you make inside the app (such as goals, journal entries, or self-assessment answers)</li>
+        <li>Name and email, if you create an account (Goal Getter, Care About You, Beat the Craving)</li>
+        <li>Content you enter in the app (goals, tasks, contacts, notes, coping options)</li>
+        <li>Messages you send to our support or idea inboxes</li>
       </ul>
 
-      <h3 class="text-lg font-semibold mb-2">Information Collected Automatically</h3>
+      <h3 class="text-lg font-semibold mb-2">Information collected automatically</h3>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Basic device information (such as device type and operating system version) to ensure the app works properly</li>
-        <li>App usage data (such as which features you use) to help us improve the app</li>
-        <li>Crash and error reports, so we can fix problems quickly</li>
+        <li>Basic device and app version information needed to run the app</li>
+        <li>Crash or error reports in development builds (production apps should not send logs to third-party debug tools)</li>
+        <li>Website traffic on appsforchange.org may use standard hosting analytics</li>
       </ul>
 
-      <h3 class="text-lg font-semibold mb-2">Information We Do NOT Collect</h3>
+      <h3 class="text-lg font-semibold mb-2">Information we do not collect</h3>
       <ul class="list-disc pl-6 space-y-1">
-        <li>We do not collect your precise location</li>
-        <li>We do not collect your contacts, photos, or files</li>
-        <li>We do not collect sensitive health or financial information</li>
-        <li>We do not build advertising profiles or sell your data</li>
+        <li>Precise location</li>
+        <li>Your phone contacts, photos, or files (unless you later grant a permission we have not enabled today)</li>
+        <li>Payment card numbers in the apps (donations, when enabled, are processed by Stripe on this website)</li>
+        <li>Advertising identifiers for ads — we do not run ads</li>
       </ul>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">3. How We Use Your Information</h2>
-      <p class="mb-3">We use your information only to:</p>
+      <h2 class="text-xl sm:text-2xl mb-3">4. How We Use Your Information</h2>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Provide and improve the features of our apps</li>
-        <li>Fix bugs and technical problems</li>
-        <li>Understand how our apps are used so we can serve our community better</li>
-        <li>Respond to your questions or support requests</li>
+        <li>Provide the features you asked for (sync, reminders you enable, AI suggestions you request)</li>
+        <li>Keep you signed in and recover your account</li>
+        <li>Fix bugs and improve the apps</li>
+        <li>Respond to support requests</li>
       </ul>
-      <p>We do not use your information for advertising. We do not sell, rent, or trade your personal information to anyone, ever.</p>
+      <p>We do not sell, rent, or trade your personal information. We do not use it for advertising.</p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">4. How We Share Your Information</h2>
-      <p class="mb-4">We do not sell your information. We may share limited information only in these circumstances:</p>
-
-      <h3 class="text-lg font-semibold mb-2">Service Providers</h3>
-      <p class="mb-4">We may use trusted third-party services to help operate our apps (for example, cloud storage or crash reporting tools). These providers are only allowed to use your information to help us deliver our service — not for their own purposes.</p>
-
-      <h3 class="text-lg font-semibold mb-2">Legal Requirements</h3>
-      <p class="mb-4">We may disclose information if required to do so by law, or if we believe in good faith that disclosure is necessary to protect the rights or safety of our users or the public.</p>
-
-      <h3 class="text-lg font-semibold mb-2">No Sale of Data</h3>
-      <p>Apps for Change will never sell your personal information to third parties for any purpose.</p>
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">5. Data Storage and Security</h2>
-      <p class="mb-3"><strong>Your data stays on your device.</strong> All information you enter into our apps is stored locally on your phone and is never transmitted to our servers or stored in the cloud. This means:</p>
+      <h2 class="text-xl sm:text-2xl mb-3">5. Who Processes Data for Us</h2>
+      <p class="mb-4">
+        We use service providers only to operate the apps and this website. They may process data only to
+        provide that service to us:
+      </p>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Your personal entries, goals, and responses remain private on your device</li>
-        <li>If you delete the app, your locally stored data is removed with it</li>
-        <li>We do not have access to the content you enter inside the app</li>
+        <li><strong>Application hosting / auth</strong> — Goal Getter, Care About You, and Beat the Craving currently run on hosted backends at <code>*.app.specular.dev</code> with Better Auth for accounts.</li>
+        <li><strong>AI (Care About You only)</strong> — optional suggestion features send the selected contact context to Anthropic via that host. Do not enter information you would not want a processor to see.</li>
+        <li><strong>Payments (website)</strong> — if donations are enabled, Stripe processes the payment. We do not store your full card number.</li>
+        <li><strong>Email</strong> — messages you send to support or info inboxes are handled as ordinary email.</li>
       </ul>
-      <p>For any limited technical data that may be collected (such as anonymous crash reports), we take reasonable steps to protect that information, including secure transmission and limiting access to only those who need it.</p>
+      <p>We may also disclose information if required by law, or to protect the safety of our users or the public.</p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">6. Data Retention</h2>
-      <p>Because your data is stored locally on your device, you are in control of it at all times. You can delete the app at any time to remove all locally stored data. Any limited technical data we may collect (such as anonymous crash reports) is retained only as long as necessary to diagnose and fix issues.</p>
+      <h2 class="text-xl sm:text-2xl mb-3">6. Data Storage and Security</h2>
+      <p class="mb-3">
+        <strong>Advocate's Compass</strong> stores your entries on the device only.
+      </p>
+      <p class="mb-3">
+        <strong>Goal Getter, Care About You, and Beat the Craving</strong> store account and app content on
+        our hosted servers so the apps can sync. We use HTTPS and restrict access to people who operate the
+        service. No system is perfectly secure; please use a unique password.
+      </p>
+      <p>
+        If you delete an account or uninstall an on-device-only app, associated data is removed from that
+        product as described in the app. Email us if you need help deleting a cloud account.
+      </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">7. Children's Privacy</h2>
-      <p class="mb-3">Our apps are designed for general audiences and are not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will delete it promptly.</p>
-      <p>If our app is intended for or may be used by minors, we take additional steps to comply with the Children's Online Privacy Protection Act (COPPA) and applicable state laws.</p>
+      <h2 class="text-xl sm:text-2xl mb-3">7. Data Retention</h2>
+      <p>
+        On-device data is under your control (clear app data or uninstall). Account data is kept while your
+        account is open, then deleted or de-identified when you ask us to close it, unless we must keep a
+        limited record for legal or security reasons. Crash reports are kept only as long as needed to fix
+        issues.
+      </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">8. Your Rights and Choices</h2>
-      <p class="mb-3">You have the right to:</p>
+      <h2 class="text-xl sm:text-2xl mb-3">8. Children's Privacy</h2>
+      <p>
+        Our apps are for a general audience and are not directed at children under 13. We do not knowingly
+        collect personal information from children under 13. If you believe a child under 13 has created an
+        account, contact us and we will delete it.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">9. Your Rights and Choices</h2>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Access and review all data you have entered — it is stored on your own device</li>
-        <li>Delete your data at any time by clearing app data or uninstalling the app</li>
-        <li>Request information about any limited technical data we may hold</li>
-        <li>Contact us with any privacy concerns or questions</li>
+        <li>Access and review data you entered in the app</li>
+        <li>Correct or delete entries in the app</li>
+        <li>Sign out, or request account deletion by email</li>
+        <li>Decline optional AI features in Care About You by not tapping generate</li>
       </ul>
-      <p>To reach us with questions or requests, email us at <a href="mailto:sam@appsforchange.org" class="text-(--color-accent) hover:underline">sam@appsforchange.org</a>. We will respond within 30 days.</p>
+      <p>
+        Privacy questions: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>.
+        We will respond within 30 days.
+      </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">9. Third-Party Links and Services</h2>
-      <p>Our apps may contain links to external websites or resources. We are not responsible for the privacy practices of those third parties. We encourage you to review the privacy policies of any external services you use.</p>
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">10. Cookies and Tracking</h2>
-      <p>Our mobile apps do not use cookies. If you visit our website at <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a>, standard web analytics may be used to understand site traffic. We do not use tracking for advertising purposes.</p>
+      <h2 class="text-xl sm:text-2xl mb-3">10. Cookies and This Website</h2>
+      <p>
+        The mobile apps do not use advertising cookies. This website may use cookies or logs needed to run
+        the site and process donations. We do not use tracking for advertising.
+      </p>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">11. Changes to This Policy</h2>
-      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Effective Date" at the top of this document. If we make significant changes, we will notify you through the app or by email. Your continued use of our apps after changes are posted means you accept the updated policy.</p>
+      <p>
+        When we update this policy we will change the effective date above. If we make a material change
+        (for example, adding a new cloud processor), we will note it here and, where required, in the app.
+      </p>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">12. Contact Us</h2>
-      <p class="mb-3">If you have questions, concerns, or requests about this Privacy Policy or how your data is handled, please contact us:</p>
       <address class="not-italic leading-relaxed">
         <strong>Apps for Change</strong><br />
         A Minnesota 501(c)(3) Nonprofit Corporation<br />
-        Email: <a href="mailto:sam@appsforchange.org" class="text-(--color-accent) hover:underline">sam@appsforchange.org</a><br />
+        Support / privacy: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a><br />
+        General: <a href="mailto:info@appsforchange.org" class="text-(--color-accent) hover:underline">info@appsforchange.org</a><br />
         Website: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a><br />
         Phone: 763-276-3958<br />
         1670 S Robert St #131<br />
         West Saint Paul, MN 55118
       </address>
-      <p class="mt-4">We are committed to addressing your concerns and will respond promptly.</p>
     </section>
 
     <p class="text-center text-(--color-text-secondary) italic mt-12">Apps for Change — Empowering Everyday People Through Technology</p>

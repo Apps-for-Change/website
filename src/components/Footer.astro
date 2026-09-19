@@ -2,7 +2,8 @@
 import ShareButtons from "./ShareButtons.astro";
 const year = new Date().getFullYear();
 const name = "Apps for Change";
-const ein = import.meta.env.PUBLIC_NONPROFIT_EIN || "XX-XXXXXXX";
+const einRaw = import.meta.env.PUBLIC_NONPROFIT_EIN || "";
+const ein = einRaw && einRaw !== "XX-XXXXXXX" ? einRaw : "";
 ---
 
 <footer class="bg-(--color-primary) text-gray-400 py-12">
@@ -10,7 +11,7 @@ const ein = import.meta.env.PUBLIC_NONPROFIT_EIN || "XX-XXXXXXX";
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
       <div>
         <h3 class="text-white font-bold text-lg mb-3">{name}</h3>
-        <p class="text-sm">EIN: {ein}</p>
+        {ein ? <p class="text-sm">EIN: {ein}</p> : null}
         <p class="text-sm mt-1">A 501(c)(3) nonprofit organization</p>
         <div class="mt-4">
           <ShareButtons

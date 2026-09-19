@@ -6,7 +6,7 @@ const name = "Apps for Change";
 <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200" aria-label="Main navigation">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
-      <a href="#" class="flex items-center gap-3">
+      <a href="/" class="flex items-center gap-3">
         <img
           src="/images/afc-logo-small.png"
           alt="Apps for Change logo"
@@ -81,7 +81,9 @@ const name = "Apps for Change";
     if (icon) {
       icon.setAttribute(
         "d",
-        isOpen ? "M4 6h16M4 12h16M4 18h16" : "M6 18L18 6M6 6l12 12"
+        isOpen
+          ? "M4 6h16M4 12h16M4 18h16"
+          : "M6 18L18 6M6 6l12 12"
       );
     }
   });

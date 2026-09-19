@@ -1,33 +1,22 @@
-# TODO - Website Migration
+# TODO - Website
 
 ## Completed
 
 - [x] Migrate apps from old website with icons to new site
-  - Replaced 3 placeholder apps with real apps: Goal Getter, Care About You, Advocate's Compass, Beat the Craving
-  - Downloaded all app icons locally to `/public/images/`
-- [x] Add app store reviews to the new website
-  - Added 2 reviews from old site to `reviews.json`
-  - ReviewCarousel component already supports displaying them
-- [x] Download and host all images/icons locally instead of linking to old website
-  - App icons, logos, store badges, and fonts all downloaded to `/public/`
-  - Updated all components: Hero, Navbar, BaseLayout, AppCard, ReviewCard, global.css
-  - No more external `i0.wp.com` or `fonts.wp.com` references in source
-- [x] Remove old donation links throughout the site
-  - Removed WordPress membership fallback links (`appsforchange.org/?membershipId=2028`)
-  - Donation now only shows when Stripe is configured or a Stripe link is set
-- [x] Update site URL in astro.config.mjs to `appsforchange.org`
-- [x] Replace old website navigation links in Footer with local anchors
-- [x] Replace old website contact link in WhatWeDo with mailto
+- [x] Host images/icons locally instead of linking to old WordPress
+- [x] About, Get Involved, Support, and Privacy pages
+- [x] Site URL in `astro.config.mjs` is `https://appsforchange.org`
+- [x] Navbar brand link returns to home
+- [x] Privacy policy rewritten per app (on-device vs cloud vs optional AI)
+- [x] Beat the Craving counter copy: increments on coping choice, not app open
 
-## Manual / Remaining
+## Remaining
 
-- [ ] Bring the domain over from old website
-  - Site URL updated in config to `https://appsforchange.org`
-  - DNS needs to be pointed from old WordPress host to Vercel
-  - Add custom domain in Vercel dashboard: Settings > Domains > Add `appsforchange.org`
-- [ ] Review other pages from old website for content to migrate
-  - **About** page (`/about/`) - mission, history, org structure, tech approach
-  - **Get Involved** page (`/get-involved/`) - volunteer roles, town halls, signup
-  - **Contact** page (`/contact/`) - form, email, address, hours
-  - These pages exist on old WordPress site but not yet on new site
-  - Decide which to create as new Astro pages vs. just linking to email/socials
+- [ ] Point DNS for appsforchange.org at Vercel (custom domain)
+- [ ] Real EIN in `PUBLIC_NONPROFIT_EIN` (or keep omitted until confirmed)
+- [ ] Enable donations (`STRIPE_SECRET_KEY` or `PUBLIC_STRIPE_DONATE_URL`)
+- [ ] 1200×630 OG image and a valid Google Play badge
+- [ ] Compress `public/images/afc-logo.png` and `bluesky-logo.png`
+- [ ] Add App Store / Play URLs in `src/data/apps.json` when listings go live
+- [ ] Restore reviews in `src/data/reviews.json` after stores exist
+- [ ] Inventory leftover WordPress pages for redirects
