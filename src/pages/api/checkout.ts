@@ -4,7 +4,9 @@ import Stripe from "stripe";
 export const prerender = false;
 
 export const POST: APIRoute = async ({ request }) => {
-  const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
+  const key = import.meta.env.STRIPE_SECRET_KEY;
+  if (!key) return json({ error: "Online donations are not available yet." }, 503);
+  const stripe = new Stripe(key);
 
   let amount: number;
   let frequency: string;
@@ -22,7 +24,7 @@ export const POST: APIRoute = async ({ request }) => {
     return json({ error: "Minimum donation is $1" }, 400);
   }
 
-  const siteUrl = import.meta.env.SITE_URL || "https://apps-for-change.github.io";
+  const siteUrl = import.meta.env.SITE_URL || "https://appsforchange.org";
   const isRecurring = frequency === "monthly" || frequency === "annual";
 
   try {
@@ -44,8 +46,8 @@ export const POST: APIRoute = async ({ request }) => {
           quantity: 1,
         },
       ],
-      success_url: `${siteUrl}?donated=true`,
-      cancel_url: `${siteUrl}#donate`,
+      success_url: `${siteUrl}/donate?donated=true`,
+      cancel_url: `${siteUrl}/donate`,
     });
 
     return json({ url: session.url }, 200);

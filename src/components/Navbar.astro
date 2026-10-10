@@ -1,5 +1,5 @@
 ---
-import ShareButtons from "./ShareButtons.astro";
+
 const name = "Apps for Change";
 ---
 
@@ -17,17 +17,19 @@ const name = "Apps for Change";
         <span class="text-xl font-bold text-(--color-primary)">{name}</span>
       </a>
 
-      <div class="hidden md:flex items-center gap-8">
-        <a href="/#apps" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Our Apps</a>
+      <div class="hidden lg:flex items-center gap-5">
+        <a href="/apps" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Our Apps</a>
+        <a href="/your-data" class="hidden lg:block">Your Data</a>
+        <a href="/town-halls" class="hidden lg:block">Town Halls</a>
         <a href="/about" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">About</a>
         <a href="/get-involved" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Get Involved</a>
         <a href="/support" class="text-(--color-text-secondary) hover:text-(--color-primary) transition-colors">Support</a>
-        <a href="/#donate" class="bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-5 py-2 rounded-full transition-colors">Donate</a>
+        <a href="/donate" class="bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-5 py-2 rounded-full transition-colors">Donate</a>
       </div>
 
       <button
         id="mobile-menu-btn"
-        class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+        class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
         aria-label="Toggle navigation menu"
         aria-expanded="false"
         aria-controls="mobile-menu"
@@ -39,32 +41,17 @@ const name = "Apps for Change";
     </div>
   </div>
 
-  <div class="hidden md:block border-t border-gray-200 bg-white/95">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-end">
-      <ShareButtons
-        label="Share"
-        iconClass="w-4 h-4"
-        labelClass="text-xs font-semibold text-(--color-text-secondary) uppercase tracking-wide"
-        linkClass="text-gray-500 hover:text-(--color-primary) transition-colors"
-      />
-    </div>
-  </div>
-
-  <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 bg-white">
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-200 bg-white">
     <div class="px-4 py-3 space-y-2">
-      <a href="/#apps" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Our Apps</a>
+      <a href="/apps" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Our Apps</a>
+      <a href="/your-data" class="block py-2">Your Data</a>
+      <a href="/town-halls" class="block py-2">Town Halls</a>
+      <a href="/funders" class="block py-2">For Funders</a>
       <a href="/about" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">About</a>
       <a href="/get-involved" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Get Involved</a>
       <a href="/support" class="block py-2 text-(--color-text-secondary) hover:text-(--color-primary)">Support</a>
-      <a href="/#donate" class="block py-2 bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-4 rounded-full text-center">Donate</a>
-      <div class="pt-3 mt-2 border-t border-gray-200">
-        <ShareButtons
-          label="Share"
-          iconClass="w-5 h-5"
-          labelClass="text-xs font-semibold text-(--color-text-secondary) uppercase tracking-wide"
-          linkClass="text-gray-500 hover:text-(--color-primary) transition-colors"
-        />
-      </div>
+      <a href="/donate" class="block py-2 bg-(--color-primary) hover:bg-(--color-primary-light) text-white font-semibold px-4 rounded-full text-center">Donate</a>
+
     </div>
   </div>
 </nav>

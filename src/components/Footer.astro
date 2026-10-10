@@ -1,51 +1,22 @@
 ---
-import ShareButtons from "./ShareButtons.astro";
 const year = new Date().getFullYear();
-const name = "Apps for Change";
-const einRaw = import.meta.env.PUBLIC_NONPROFIT_EIN || "";
-const ein = einRaw && einRaw !== "XX-XXXXXXX" ? einRaw : "";
+const links = [['Our Apps','/apps'],['Your Data','/your-data'],['Town Halls','/town-halls'],['Get Involved','/get-involved'],['About','/about'],['For Funders','/funders'],['Donate','/donate'],['Support','/support'],['Privacy Policy','/privacy'],['Terms of Service','mailto:info@appsforchange.org?subject=Terms%20of%20Service']];
 ---
-
-<footer class="bg-(--color-primary) text-gray-400 py-12">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-      <div>
-        <h3 class="text-white font-bold text-lg mb-3">{name}</h3>
-        {ein ? <p class="text-sm">EIN: {ein}</p> : null}
-        <p class="text-sm mt-1">A 501(c)(3) nonprofit organization</p>
-        <div class="mt-4">
-          <ShareButtons
-            label="Share this page"
-            labelClass="text-white font-semibold text-sm"
-            linkClass="text-gray-400 hover:text-white transition-colors"
-            class="flex-col items-start gap-2"
-          />
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-white font-semibold mb-3 text-sm">Address</h3>
-        <p class="text-sm">1670 S Robert Street</p>
-        <p class="text-sm">#131</p>
-        <p class="text-sm">West Saint Paul, MN 55118</p>
-      </div>
-
-      <div>
-        <h3 class="text-white font-semibold mb-3 text-sm">Menu</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
-          <li><a href="/about" class="hover:text-white transition-colors">About us</a></li>
-          <li><a href="/get-involved" class="hover:text-white transition-colors">Get involved</a></li>
-          <li><a href="/#apps" class="hover:text-white transition-colors">Our apps</a></li>
-          <li><a href="/#donate" class="hover:text-white transition-colors">Donate</a></li>
-          <li><a href="/support" class="hover:text-white transition-colors">Support</a></li>
-          <li><a href="mailto:info@appsforchange.org" class="hover:text-white transition-colors">Contact us</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="border-t border-gray-700 pt-8 text-center text-sm">
-      <p>&copy; {year} Apps for Change. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+<footer class="site-footer"><div class="shell footer-grid">
+  <div><a href="/"><img src="/images/afc-logo-small.png" alt="Apps for Change logo" width="48" height="48" loading="lazy" /></a><p class="footer-tagline">Free Apps. Real Change. Community-Powered.</p><p>Apps for Change is a Minnesota 501(c)(3) nonprofit. EIN 41-4014098.</p><address>1670 S Robert Street #131<br />West Saint Paul, MN 55118</address></div>
+  <div><h2>Contact us</h2><p>General questions: <a href="mailto:info@appsforchange.org">info@appsforchange.org</a></p><p>App support: <a href="mailto:support@appsforchange.org">support@appsforchange.org</a></p><p>Town hall sign-ups: <a href="mailto:sam@appsforchange.org?subject=Town%20Hall">sam@appsforchange.org</a></p><p>In crisis? Call or text <a href="tel:988">988</a>. In an emergency, call <a href="tel:911">911</a>.</p><button id="share-page" type="button">Share</button><p id="share-status" role="status"></p></div>
+  <nav aria-label="Footer navigation"><h2>Explore</h2><ul>{links.map(([label,href]) => <li><a href={href}>{label}</a></li>)}</ul></nav>
+</div><p class="copyright">© {year} Apps for Change. All rights reserved.</p></footer>
+<script>
+  document.getElementById('share-page')?.addEventListener('click', async () => {
+    const url = window.location.href;
+    const status = document.getElementById('share-status');
+    try {
+      if (navigator.share) await navigator.share({ title: document.title, url });
+      else { await navigator.clipboard.writeText(url); if (status) status.textContent = 'Page link copied.'; }
+    } catch (error) {
+      if (error instanceof Error && error.name === 'AbortError') return;
+      if (status) status.textContent = `Share this link: ${url}`;
+    }
+  });
+</script>

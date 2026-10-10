@@ -9,16 +9,16 @@ import Footer from "../components/Footer.astro";
   description="Apps for Change Privacy Policy. Learn how we collect, use, and protect your information across our free mobile apps."
 >
   <Navbar />
-  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+  <main id="main-content" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
     <h1 class="text-3xl sm:text-4xl mb-2">Privacy Policy</h1>
-    <p class="text-(--color-text-secondary) mb-8">Effective Date: September 19, 2026</p>
+    <p class="text-(--color-text-secondary) mb-8">Effective Date: October 10, 2026</p>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">Our Commitment to You</h2>
       <p>
         Apps for Change is a Minnesota-based 501(c)(3) nonprofit. We build free mobile apps to help people
         reach goals, practice self-advocacy, stay connected, and build healthier habits. This policy explains
-        in plain language what each app stores, what is synced to our servers, and what is never collected.
+        in plain language what each app stores, what is synced to our servers, and what is never collected. All four apps are planned for launch in 2027.
       </p>
     </section>
 
@@ -41,14 +41,12 @@ import Footer from "../components/Footer.astro";
 
       <h3 class="text-lg font-semibold mb-2">Advocate's Compass</h3>
       <p class="mb-4">
-        Meeting prep notes, skills progress, and preferences stay <strong>on your device</strong>
-        (AsyncStorage). There is no account, no cloud backup, and no cloud AI. Advocate Now uses built-in
-        offline templates. Uninstalling the app removes this data.
+        An account is required. Meeting preparation, notes, learning progress, and preferences sync to our hosted servers. Advocate Now uses optional AI: when you ask for a script, what you type is sent to our AI service provider. Scripts are a starting point that you can edit.
       </p>
 
       <h3 class="text-lg font-semibold mb-2">Goal Getter</h3>
       <p class="mb-4">
-        Creating an account (email or sign-in provider) is required so your goals, milestones, tasks,
+        Creating an account is required so your goals, milestones, tasks,
         calendar items, and life-area progress can sync to our backend. That data is stored on our hosted
         application server so it is available when you sign in on another device.
       </p>
@@ -75,7 +73,7 @@ import Footer from "../components/Footer.astro";
 
       <h3 class="text-lg font-semibold mb-2">Information you give us</h3>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Name and email, if you create an account (Goal Getter, Care About You, Beat the Craving)</li>
+        <li>Name and email, if you create an account (all four apps)</li>
         <li>Content you enter in the app (goals, tasks, contacts, notes, coping options)</li>
         <li>Messages you send to our support or idea inboxes</li>
       </ul>
@@ -114,8 +112,8 @@ import Footer from "../components/Footer.astro";
         provide that service to us:
       </p>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li><strong>Application hosting / auth</strong> — Goal Getter, Care About You, and Beat the Craving currently run on hosted backends at <code>*.app.specular.dev</code> with Better Auth for accounts.</li>
-        <li><strong>AI (Care About You only)</strong> — optional suggestion features send the selected contact context to Anthropic via that host. Do not enter information you would not want a processor to see.</li>
+        <li><strong>Application hosting / auth</strong> — All four apps use hosted servers for accounts and app content.</li>
+        <li><strong>AI (Care About You and Advocate's Compass)</strong> — optional suggestions send contact context, notes, and recent kindness history to an AI service provider; Advocate Now sends what you type when you request a script. Do not enter information you would not want a processor to see.</li>
         <li><strong>Payments (website)</strong> — if donations are enabled, Stripe processes the payment. We do not store your full card number.</li>
         <li><strong>Email</strong> — messages you send to support or info inboxes are handled as ordinary email.</li>
       </ul>
@@ -125,26 +123,22 @@ import Footer from "../components/Footer.astro";
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">6. Data Storage and Security</h2>
       <p class="mb-3">
-        <strong>Advocate's Compass</strong> stores your entries on the device only.
+        All four apps store account information and entries on our hosted servers.
       </p>
       <p class="mb-3">
-        <strong>Goal Getter, Care About You, and Beat the Craving</strong> store account and app content on
+        <strong>All four apps</strong> store account and app content on
         our hosted servers so the apps can sync. We use HTTPS and restrict access to people who operate the
         service. No system is perfectly secure; please use a unique password.
       </p>
       <p>
-        If you delete an account or uninstall an on-device-only app, associated data is removed from that
-        product as described in the app. Email us if you need help deleting a cloud account.
+        You can delete entries in the apps. To delete your account, email support@appsforchange.org. Uninstalling an app does not delete your account.
       </p>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">7. Data Retention</h2>
       <p>
-        On-device data is under your control (clear app data or uninstall). Account data is kept while your
-        account is open, then deleted or de-identified when you ask us to close it, unless we must keep a
-        limited record for legal or security reasons. Crash reports are kept only as long as needed to fix
-        issues.
+        Account data is kept while your account is open. When you request account deletion, we remove it from active systems within 30 days and from backups within 90 days, unless a limited record is required by law.
       </p>
     </section>
 
@@ -163,7 +157,7 @@ import Footer from "../components/Footer.astro";
         <li>Access and review data you entered in the app</li>
         <li>Correct or delete entries in the app</li>
         <li>Sign out, or request account deletion by email</li>
-        <li>Decline optional AI features in Care About You by not tapping generate</li>
+        <li>Decline optional AI features in Care About You and Advocate's Compass by not requesting a suggestion or script</li>
       </ul>
       <p>
         Privacy questions: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>.

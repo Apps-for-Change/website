@@ -1,0 +1,1086 @@
+[
+  {
+    "slug": "apps",
+    "title": "Our Free Apps | Apps for Change",
+    "description": "Goal Getter, Care About You, Beat the Craving, and Advocate's Compass: four free, private apps from a Minnesota nonprofit, coming in 2027.",
+    "headline": "Our apps",
+    "body": "Four free apps for four parts of a good life: growing toward your goals, caring for others, staying strong when cravings hit, and speaking up for yourself. All four are coming to iPhone and Android in 2027.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "",
+        "blocks": [
+          {
+            "type": "apps"
+          }
+        ]
+      },
+      {
+        "heading": "Every app makes the same promises",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Free forever. No ads, subscriptions, or in-app purchases.",
+              "Your information is stored securely in your account, so it's there when you get a new phone.",
+              "We never sell your data or share it with employers, insurers, funders, or partner organizations.",
+              "You can delete your entries or your whole account at any time."
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Get launch updates",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apps/goal-getter",
+    "title": "Goal Getter | Apps for Change",
+    "description": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
+    "headline": "Big goals. Small steps. Real progress.",
+    "body": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
+    "label": "Goal Getter · Coming 2027",
+    "sections": [
+      {
+        "heading": "Who it's for",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Anyone working toward something: a healthier routine, a stronger relationship, a steadier budget, a new skill, or a fresh start."
+          }
+        ]
+      },
+      {
+        "heading": "What you can do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Set goals for your whole life. Health, relationships, money, learning, purpose, and more, not just one habit at a time.",
+              "Break it down. Turn each goal into action steps and milestones, so you always know what to do next.",
+              "Plan your week. Give your action steps dates so they fit into real life.",
+              "See it all on one dashboard. Check your progress on every goal at a glance.",
+              "Find your balance. See which areas of your life are thriving and which need attention.",
+              "Stay on track. Get reminders and check-ins that fit your schedule.",
+              "Look back and learn. Write short reflections on what's working.",
+              "Celebrate milestones. Mark the wins along the way."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Why it's different",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most goal apps track one habit at a time. Goal Getter grew out of our founding framework of eight areas of a balanced life, so it helps you see the whole picture."
+          }
+        ]
+      },
+      {
+        "heading": "Your privacy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Your goals are private. They're stored securely in your account, never sold, and never used for ads."
+          },
+          {
+            "type": "link",
+            "text": "How we protect your data",
+            "href": "/your-data"
+          },
+          {
+            "type": "link",
+            "text": "Tell me when Goal Getter launches",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Goal%20Getter"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apps/care-about-you",
+    "title": "Care About You | Apps for Change",
+    "description": "We all mean to check in, say thank you, or do something kind. Then life gets busy. Care About You gives you ideas for the people you care about and puts them on your calendar, so good intentions turn into action.",
+    "headline": "Kindness, on your calendar.",
+    "body": "We all mean to check in, say thank you, or do something kind. Then life gets busy. Care About You gives you ideas for the people you care about and puts them on your calendar, so good intentions turn into action.",
+    "label": "Care About You · Coming 2027",
+    "sections": [
+      {
+        "heading": "Who it's for",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Anyone who wants to show up for friends, family, neighbors, and coworkers, and anyone who wants to make kindness a habit."
+          }
+        ]
+      },
+      {
+        "heading": "What you can do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Add the people who matter. Keep a short list of the people you want to show up for, with notes about what's going on in their lives.",
+              "Get ideas made just for them. Tap for a suggestion, and AI offers a thoughtful next act of kindness based on your notes.",
+              "Put it on your calendar. Add your plan to your phone's calendar so it actually happens.",
+              "Get gentle reminders to check in with the people you care about.",
+              "Track what you've done. Mark acts of kindness complete and look back on the good you've done. It's for you, not for likes.",
+              "Kindness for every budget. Get ideas that cost nothing at all."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "About the AI",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI suggestions are optional. They run only when you tap to ask. When you do, the person's name, your notes, and your recent kindness history are sent to our AI service provider to create the suggestion. This information is never sold or used for ads"
+          },
+          {
+            "type": "p",
+            "text": "Tip: You don't need to share private details. A first name and a few words are enough."
+          },
+          {
+            "type": "link",
+            "text": "How we protect your data",
+            "href": "/your-data"
+          },
+          {
+            "type": "link",
+            "text": "Tell me when Care About You launches",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Care%20About%20You"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apps/beat-the-craving",
+    "title": "Beat the Craving | Apps for Change",
+    "description": "Cravings come in waves. They build, peak, and pass. Beat the Craving helps you ride out each one with coping strategies you choose, and helps you stick with them one day at a time.",
+    "headline": "When a craving hits, you'll have a plan.",
+    "body": "Cravings come in waves. They build, peak, and pass. Beat the Craving helps you ride out each one with coping strategies you choose, and helps you stick with them one day at a time.",
+    "label": "Beat the Craving · Coming 2027",
+    "sections": [
+      {
+        "heading": "Who it's for",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "People in recovery, people cutting back on alcohol, nicotine, or other substances, and anyone who wants a private, judgment-free tool for hard moments."
+          }
+        ]
+      },
+      {
+        "heading": "What you can do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Build your coping toolkit. Choose from a list of coping options or add your own: take a walk, pray, call a friend, breathe, or something that's yours alone.",
+              "Get to it fast. Open the app in a hard moment and go straight to your strategies, plus quick grounding, breathing, and distraction exercises.",
+              "Count every craving you beat. Each time you choose a coping option instead, your counter goes up. Watch your wins add up.",
+              "Ride out the wave. A simple timer helps you hold on while a craving passes.",
+              "Spot your triggers. Note what was happening, like the time, the place, or the feeling, and start to see patterns.",
+              "Stay accountable. Set a daily commitment and check in with yourself.",
+              "Reflect and grow. Write down what helped, so you know what to reach for next time."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "No AI, by design",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Beat the Craving has no AI features. Everything in it comes from you: your strategies, your words, your plan."
+          }
+        ]
+      },
+      {
+        "heading": "Your privacy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "What you enter here is treated as sensitive information. It's stored securely in your account and never sold, never used for ads, and never shared with employers, insurers, funders, or partner organizations. Our team doesn't read your entries, and you can delete them anytime."
+          },
+          {
+            "type": "link",
+            "text": "How we protect your data",
+            "href": "/your-data"
+          }
+        ]
+      },
+      {
+        "heading": "Free means free",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Every tool in Beat the Craving is free, including crisis resources. Help will never sit behind a paywall."
+          }
+        ]
+      },
+      {
+        "heading": "Important",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Beat the Craving is a self-help tool. It isn't addiction treatment, and it doesn't replace care from a doctor, counselor, or recovery program."
+          },
+          {
+            "type": "crisis"
+          },
+          {
+            "type": "link",
+            "text": "Tell me when Beat the Craving launches",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Beat%20the%20Craving"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apps/advocates-compass",
+    "title": "Advocate's Compass | Apps for Change",
+    "description": "Speaking up for yourself isn't always easy, especially with a doctor, a landlord, a boss, or a room full of professionals making decisions about your life. Advocate's Compass helps you learn the skills, find the words, and walk in prepared.",
+    "headline": "Know what to say when it matters most.",
+    "body": "Speaking up for yourself isn't always easy, especially with a doctor, a landlord, a boss, or a room full of professionals making decisions about your life. Advocate's Compass helps you learn the skills, find the words, and walk in prepared.",
+    "label": "Advocate's Compass · Coming 2027",
+    "sections": [
+      {
+        "heading": "Who it's for",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "People with disabilities, people navigating services and systems, caregivers and family members, and anyone who has left a meeting thinking, \"I wish I'd said that.\""
+          }
+        ]
+      },
+      {
+        "heading": "What you can do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Learn at your own pace. Short lessons on knowing your rights, communicating clearly, and preparing for the conversations that matter.",
+              "Practice real situations. Work through common scenarios so you feel ready when they happen.",
+              "Find the words with Advocate Now. Describe your situation, and AI writes a script you can use: what to say, what to ask, and how to follow up. Edit it until it sounds like you.",
+              "Prepare for meetings. Keep track of upcoming meetings and list what you want to say and ask.",
+              "Take notes and follow up. Write down what was decided, who will do what, and what happens next.",
+              "See your progress. Track the lessons you've finished and the skills you've built."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Situations it can help with",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Asking a doctor for a second opinion",
+              "Asking a landlord for a repair",
+              "Requesting an accommodation at work",
+              "Speaking up in a support planning meeting",
+              "Questioning a bill or a denied benefit",
+              "Advocating for your child at school"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Why it's different",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Advocate's Compass grew out of years of experience in Minnesota human services. We saw how often people needed better tools to plan their own lives and speak up for themselves."
+          }
+        ]
+      },
+      {
+        "heading": "About the AI",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Advocate Now uses AI to write scripts. When you ask for one, what you type is sent to our AI service provider to create it. It's never sold or used for ads. Scripts are a starting point. You know your situation best."
+          }
+        ]
+      },
+      {
+        "heading": "Good to know",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Advocate's Compass offers general education and practice tools, not legal advice. For legal questions, talk with a lawyer or a legal aid organization."
+          },
+          {
+            "type": "link",
+            "text": "How we protect your data",
+            "href": "/your-data"
+          },
+          {
+            "type": "link",
+            "text": "Tell me when Advocate's Compass launches",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Advocate%27s%20Compass"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "your-data",
+    "title": "Your Data, Your Choice | Apps for Change",
+    "description": "Our apps are free, ad-free, and never sell your data. Here's how we store, protect, and delete your information, in plain language.",
+    "headline": "Your data. Your choice.",
+    "body": "Many free apps make money by selling your information or showing you ads. We don't do either, and we never will. As a nonprofit with no owners, we have no reason to.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "What we never do",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Sell your information, to anyone, ever.",
+              "Use it for advertising.",
+              "Share it with employers, insurers, funders, or partner organizations.",
+              "Track you for advertising, in our apps or on this website.",
+              "Put features behind a paywall."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "How each app works",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "App",
+              "Account",
+              "Where your entries are stored",
+              "Uses AI?"
+            ],
+            "rows": [
+              [
+                "Goal Getter",
+                "Yes",
+                "Your account, on our secure cloud servers",
+                "No"
+              ],
+              [
+                "Care About You",
+                "Yes",
+                "Your account, on our secure cloud servers",
+                "Yes, for optional kindness suggestions"
+              ],
+              [
+                "Beat the Craving",
+                "Yes",
+                "Your account, on our secure cloud servers",
+                "No"
+              ],
+              [
+                "Advocate's Compass",
+                "Yes",
+                "Your account, on our secure cloud servers",
+                "Yes, for Advocate Now scripts"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Your account means your information is there when you get a new phone or use more than one device."
+          }
+        ]
+      },
+      {
+        "heading": "What we collect",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Only what each app needs to work: your email and a name or username for your account, the entries you create, and basic technical details like device type and crash reports. We don't collect your precise location, and we don't build advertising profiles. Care About You asks your permission before adding anything to your calendar."
+          }
+        ]
+      },
+      {
+        "heading": "Who can see your entries",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Our team doesn't read your entries. The only exceptions are when you ask us for help with a support issue, when the law requires it, or when we need to investigate a security problem. Trusted service providers, like our cloud host, store information for us under written agreements that let them use it only to run our apps."
+          }
+        ]
+      },
+      {
+        "heading": "How we protect it",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Your information is encrypted while it travels between your device and our servers. Access is limited to the few people who operate and support the apps."
+          }
+        ]
+      },
+      {
+        "heading": "About AI",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Two apps use AI, and only when you ask. In Care About You, tapping for a suggestion sends the person's name, your notes, and your recent kindness history to our AI service provider. In Advocate's Compass, asking Advocate Now for a script sends what you type. Goal Getter and Beat the Craving don't use AI at all."
+          }
+        ]
+      },
+      {
+        "heading": "Sensitive information",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entries in Beat the Craving may relate to recovery, substance use, or emotional well-being. We treat them as sensitive and protect them that way."
+          }
+        ]
+      },
+      {
+        "heading": "Deleting your information",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Delete any entry inside the app at any time.",
+              "Delete your whole account by emailing support@appsforchange.org. We remove it from our active systems within 30 days and from backups within 90 days.",
+              "Uninstalling an app doesn't delete your account. To erase your information, delete your account."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "How we report our impact",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "When we tell funders and our Board how we're doing, we use only totals, like the number of people using our apps. We never share anyone's individual entries."
+          }
+        ]
+      },
+      {
+        "heading": "Age",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Our apps are for people 13 and older. If you're under 18, please use them with a parent's or guardian's involvement."
+          }
+        ]
+      },
+      {
+        "heading": "Questions",
+        "blocks": [
+          {
+            "type": "link",
+            "text": "Read our full Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "type": "p",
+            "text": "Or email support@appsforchange.org."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "town-halls",
+    "title": "Monthly Community Town Halls | Apps for Change",
+    "description": "Starting in early 2027, join our free monthly virtual town halls to preview new features, share app ideas, and help shape what we build.",
+    "headline": "You help decide what we build.",
+    "body": "Starting in early 2027, we'll host a free virtual town hall every month. It's your chance to see what's coming, share your ideas, and talk directly with the people building the apps.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "What happens at a town hall",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Sneak peeks. See new apps and features before anyone else.",
+              "Your ideas. Bring an idea for a new feature or a whole new app.",
+              "Honest feedback. Tell us what's working, what isn't, and what's missing."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Where your ideas go",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "This isn't a suggestion box that nobody opens. Our bylaws require us to summarize what we hear at every town hall and present it to our Board of Directors. Your voice is part of how we decide what to build."
+          }
+        ]
+      },
+      {
+        "heading": "How to join",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Email sam@appsforchange.org with \"Town Hall\" in the subject line.",
+              "We'll send you the date and a Google Meet link.",
+              "Join from your phone or computer."
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Sign me up",
+            "href": "mailto:sam@appsforchange.org?subject=Town%20Hall"
+          }
+        ]
+      },
+      {
+        "heading": "Good to know",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Free and open to everyone.",
+              "No tech experience needed. We especially want to hear from people who don't think of themselves as \"tech people.\"",
+              "First name only is fine. Camera on or off, your choice.",
+              "Need captions or another accommodation? Tell us when you sign up."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "get-involved",
+    "title": "Get Involved | Apps for Change",
+    "description": "Join a town hall, share an app idea, volunteer your skills, or help test our apps before launch. Apps for Change is built with the communities we serve.",
+    "headline": "The best ideas come from the communities we serve.",
+    "body": "There are lots of ways to help, whether you have five minutes or five hours a month.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "Join a town hall",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Our free monthly virtual town halls start in early 2027. Bring your questions and ideas."
+          },
+          {
+            "type": "link",
+            "text": "Sign me up",
+            "href": "mailto:sam@appsforchange.org?subject=Town%20Hall"
+          }
+        ]
+      },
+      {
+        "heading": "Share an app idea",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Have an idea for a new feature, or a whole new app that could help your community? We read every idea and bring the strongest ones to our town halls and our Board."
+          },
+          {
+            "type": "link",
+            "text": "Send an idea",
+            "href": "mailto:info@appsforchange.org?subject=App%20idea"
+          }
+        ]
+      },
+      {
+        "heading": "Test our apps before launch",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Before launch, we'll invite community members to try our apps and tell us what works. Want to be first in line?"
+          },
+          {
+            "type": "link",
+            "text": "Add me to the tester list",
+            "href": "mailto:info@appsforchange.org?subject=Beta%20tester"
+          }
+        ]
+      },
+      {
+        "heading": "Join a focus group",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We're planning small virtual focus groups with the people our apps are built for, including people in recovery, caregivers, and anyone working toward personal goals. Participants receive a gift card as a thank-you."
+          },
+          {
+            "type": "link",
+            "text": "I'm interested",
+            "href": "mailto:info@appsforchange.org?subject=Focus%20group"
+          }
+        ]
+      },
+      {
+        "heading": "Volunteer your skills",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We're a small team, and skilled volunteers make a big difference. We could use help with:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "App development and testing",
+              "Design and accessibility",
+              "Writing and content",
+              "Outreach and community organizing",
+              "Legal, accounting, and nonprofit expertise",
+              "Data and evaluation"
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Volunteer with us",
+            "href": "mailto:info@appsforchange.org?subject=Volunteer"
+          }
+        ]
+      },
+      {
+        "heading": "Bring our apps to your organization",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Do you work with people in recovery, people with disabilities, caregivers, or community groups? Let's talk about how free, private tools could help the people you serve."
+          },
+          {
+            "type": "link",
+            "text": "Start a conversation",
+            "href": "mailto:info@appsforchange.org?subject=Partnership"
+          }
+        ]
+      },
+      {
+        "heading": "Spread the word",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tell a friend, share us on social media, or invite us to speak to your group."
+          }
+        ]
+      },
+      {
+        "heading": "Give",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donations keep every app free for everyone."
+          },
+          {
+            "type": "link",
+            "text": "Donate",
+            "href": "/donate"
+          },
+          {
+            "type": "p",
+            "text": "Questions? Email info@appsforchange.org. We reply within two business days."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "about",
+    "title": "About Us | Apps for Change",
+    "description": "Apps for Change is a Minnesota 501(c)(3) nonprofit building free, private apps that help people reach goals, care for others, and advocate for themselves.",
+    "headline": "Free tools for a better life, built with the people who use them.",
+    "body": "",
+    "label": "",
+    "sections": [
+      {
+        "heading": "Our mission",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change develops free mobile apps, educational tools, and community programs that promote self-advocacy, goal achievement, personal resilience, caregiver support, and community engagement. Our work aims to reduce poverty, dependence, and social despair. Every app and program is free."
+          }
+        ]
+      },
+      {
+        "heading": "Why I started Apps for Change",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "\"I started Apps for Change because it was the most realistic way for me to make a difference in my community."
+          },
+          {
+            "type": "p",
+            "text": "Before this, I spent years in Minnesota human services, working alongside people navigating disability, recovery, and complex support systems. I saw how often people needed simple, practical tools to plan their own lives and speak up for themselves."
+          },
+          {
+            "type": "p",
+            "text": "I want people to have a free app that can help them improve their life. No strings attached.\""
+          },
+          {
+            "type": "p",
+            "text": "— Sam, Founder and Executive Director"
+          }
+        ]
+      },
+      {
+        "heading": "How we got here",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change began as a personal development framework built around eight areas of a balanced life: relationships, purpose, physical health, learning, service, environment, emotional well-being, and finances. What started as worksheets grew into digital tools."
+          },
+          {
+            "type": "p",
+            "text": "Along the way, we saw gaps in Minnesota's disability services, where people needed better support for self-advocacy and clearer ways to plan their own lives. We built apps to fill those gaps, and the work grew from there."
+          }
+        ]
+      },
+      {
+        "heading": "What we believe",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Free means free. No ads, subscriptions, in-app purchases, or paywalls.",
+              "Privacy comes first. Your information is never sold or used for ads.",
+              "Independence over dependence. Technology should build your strength, not keep you scrolling. Every feature answers one question: does this help someone take the next step on their own?",
+              "Built with community. The people who use our apps help shape them.",
+              "Everyone belongs. We build for people of every background and ability, including people who don't consider themselves \"tech people.\""
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Accountability and transparency",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change is a Minnesota nonprofit corporation and a 501(c)(3) nonprofit organization, EIN 41-4014098."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Governed by a three-member Board of Directors that meets at least four times a year",
+              "Bylaws that require input from community town halls to go to the Board",
+              "No owners or shareholders. If we ever close, our bylaws require any remaining assets to go to other 501(c)(3) nonprofits or a public body, never to an individual."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Our bylaws, policies, and financial information are available on request at info@appsforchange.org."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "funders",
+    "title": "For Funders and Partners | Apps for Change",
+    "description": "Support a Minnesota nonprofit building free, private, community-shaped well-being apps. See our model, our accountability, and how to partner with us.",
+    "headline": "Help that reaches people when they need it most.",
+    "body": "Apps for Change is a Minnesota 501(c)(3) nonprofit preparing to launch four free, private apps in 2027. We're looking for funders and partners who believe help shouldn't come with a price tag or a catch.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "The need",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many well-being apps put key features behind a subscription or pay for themselves with ads and user data. The people who could benefit most, including people in recovery, caregivers, people with disabilities, and people with limited income, are often the ones a paywall shuts out."
+          },
+          {
+            "type": "p",
+            "text": "The need is large. In 2024, 48.4 million people in the U.S. aged 12 and older had a substance use disorder in the past year. Of those who needed substance use treatment, only about 1 in 5 received it."
+          },
+          {
+            "type": "link",
+            "text": "SAMHSA, 2024 National Survey on Drug Use and Health.",
+            "href": "https://www.samhsa.gov/newsroom/press-announcements/20250728/samhsa-releases-annual-national-survey-on-drug-use-and-health"
+          }
+        ]
+      },
+      {
+        "heading": "Our model",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Free forever, by design. We're a nonprofit with no owners, so we have no reason to sell data, show ads, or upsell. The promise is built into our structure.",
+              "Shaped by the people we serve. Our bylaws require that input from our monthly community town halls, starting in early 2027, goes to our Board.",
+              "Grounded in human services. Our founder brings years of experience in Minnesota human services, working alongside people navigating disability and recovery.",
+              "Lean and practical. Free apps cost very little to share with one more person, so support goes further. We grow through community and referrals, not paid ads."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What your support makes possible",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Finishing and launching all four apps on iPhone and Android in 2027",
+              "Community focus groups and monthly town halls that shape what we build",
+              "Legal and privacy review that keeps our data promises strong",
+              "Hosting and app store costs that keep the apps available and free"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Our goals for 2027",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Launch all four apps on the Apple App Store and Google Play",
+              "Begin monthly virtual town halls in early 2027",
+              "Hold at least three community focus groups"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "How we'll measure impact",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We'll report on apps launched, people using the apps, town halls held, and community ideas brought to the Board and built into the apps. We report totals only, never anyone's personal entries."
+          }
+        ]
+      },
+      {
+        "heading": "Ways to support",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Grants from foundations and government programs",
+              "Corporate giving, including sponsorships and matching gifts",
+              "In-kind support: pro bono legal, accounting, design, development, and accessibility expertise"
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Individual gifts, one-time or monthly",
+            "href": "/donate"
+          }
+        ]
+      },
+      {
+        "heading": "Request our funder packet",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Email us and we'll send our business plan, budget, and governance documents, or set up a call."
+          },
+          {
+            "type": "link",
+            "text": "Request the funder packet",
+            "href": "mailto:info@appsforchange.org?subject=Funder%20packet%20request"
+          },
+          {
+            "type": "p",
+            "text": "Minnesota nonprofit corporation · 501(c)(3) · EIN 41-4014098 · Governed by a three-member Board of Directors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "donate",
+    "title": "Donate | Apps for Change",
+    "description": "Your gift keeps our well-being apps free for everyone, with no ads and no paywalls. Apps for Change is a 501(c)(3) nonprofit, EIN 41-4014098.",
+    "headline": "Keep help free for everyone who needs it.",
+    "body": "Our apps will always be free, with no ads, no paywalls, and no selling your data. Donors like you make that possible.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "What your gift can do",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Gift",
+              "What it can do"
+            ],
+            "rows": [
+              [
+                "$10",
+                "Helps cover the cloud hosting that keeps your information safe and available on any device"
+              ],
+              [
+                "$25",
+                "Thanks one community member for sharing their experience in a focus group"
+              ],
+              [
+                "$50",
+                "Helps fund outreach so the people who need these apps can find them"
+              ],
+              [
+                "$100",
+                "Helps pay for the legal and privacy review behind our promise to protect your data"
+              ]
+            ]
+          },
+          {
+            "type": "donate"
+          }
+        ]
+      },
+      {
+        "heading": "Give monthly",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Monthly gifts give us steady support we can plan around. A broad base of everyday donors also makes our nonprofit stronger."
+          }
+        ]
+      },
+      {
+        "heading": "Other ways to give",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Matching gifts. Many employers match donations. Ask your HR team."
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Your skills. Donate professional time",
+            "href": "/get-involved"
+          },
+          {
+            "type": "link",
+            "text": "Foundations and organizations. See how to partner with us",
+            "href": "/funders"
+          }
+        ]
+      },
+      {
+        "heading": "Tax information",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change is a 501(c)(3) nonprofit organization, EIN 41-4014098. Donations are tax-deductible to the extent allowed by law. You'll receive a receipt for your records."
+          },
+          {
+            "type": "p",
+            "text": "Donor privacy: We never sell or share donor information."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "support",
+    "title": "Support and FAQ | Apps for Change",
+    "description": "Get help with Apps for Change apps, find answers to common questions, and reach our support team by email.",
+    "headline": "We're here to help.",
+    "body": "Have a question about our apps? Check the answers below, or email us. A real person will reply.",
+    "label": "",
+    "sections": [
+      {
+        "heading": "Contact support",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Email support@appsforchange.org. We reply within 24 to 48 hours."
+          },
+          {
+            "type": "p",
+            "text": "It helps to include:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "The app you're using",
+              "What you were trying to do, and what happened instead",
+              "Your device, such as iPhone or Android",
+              "Screenshots, if you're comfortable sharing them"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "A quick note is enough to get started. Please don't email passwords, payment details, or sensitive personal information. We'll never ask for them."
+          }
+        ]
+      },
+      {
+        "heading": "Common questions",
+        "blocks": [
+          {
+            "type": "faq-link",
+            "text": "All four apps are coming to iPhone and Android in 2027. Get launch updates",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates",
+            "question": "When can I download the apps?"
+          },
+          {
+            "type": "faq",
+            "question": "Are the apps really free?",
+            "text": "Yes. No purchase price, subscriptions, in-app purchases, or ads. Every feature is free, including crisis resources."
+          },
+          {
+            "type": "faq",
+            "question": "How do you pay for it?",
+            "text": "Donations and grants. We're a 501(c)(3) nonprofit, so we don't need to make money from you."
+          },
+          {
+            "type": "faq",
+            "question": "Do I need an account?",
+            "text": "Yes. Your account keeps your information backed up and lets you use it on a new phone or more than one device."
+          },
+          {
+            "type": "faq-link",
+            "text": "Never. See how we protect it",
+            "href": "/your-data",
+            "question": "Do you sell my data?"
+          },
+          {
+            "type": "faq",
+            "question": "Which apps use AI?",
+            "text": "Care About You uses AI for optional kindness suggestions, and Advocate's Compass uses it for Advocate Now scripts. Goal Getter and Beat the Craving don't use AI."
+          },
+          {
+            "type": "faq",
+            "question": "How do I delete my information?",
+            "text": "Delete any entry in the app anytime. To delete your whole account, email support@appsforchange.org. Uninstalling an app doesn't delete your account."
+          },
+          {
+            "type": "faq",
+            "question": "Is Beat the Craving a treatment program?",
+            "text": "No. It's a self-help tool. It isn't addiction treatment and doesn't replace a doctor, counselor, or recovery program."
+          },
+          {
+            "type": "faq",
+            "question": "Who can use the apps?",
+            "text": "People 13 and older. If you're under 18, please use them with a parent's or guardian's involvement."
+          },
+          {
+            "type": "faq",
+            "question": "Can you help with accessibility needs?",
+            "text": "Yes. Tell us what you need at support@appsforchange.org and we'll do our best to help."
+          },
+          {
+            "type": "faq-link",
+            "text": "Email info@appsforchange.org, or bring it to a town hall",
+            "href": "/town-halls",
+            "question": "I have an app idea. Where do I send it?"
+          },
+          {
+            "type": "faq",
+            "question": "Can my organization use your apps?",
+            "text": "We'd love to talk. Email info@appsforchange.org."
+          },
+          {
+            "type": "crisis"
+          }
+        ]
+      }
+    ]
+  }
+]

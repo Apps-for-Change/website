@@ -26,9 +26,10 @@ const siteName = "Apps for Change";
     <link rel="icon" type="image/png" href="/images/afc-logo-small.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/images/afc-logo-small.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="/images/afc-logo-small.png" />
-    <title>{title} | {siteName}</title>
+    <title>{title.includes(siteName) ? title : `${title} | ${siteName}`}</title>
   </head>
   <body class="min-h-screen bg-(--color-bg)">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <slot />
   </body>
 </html>

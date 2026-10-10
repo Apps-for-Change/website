@@ -1,26 +1,26 @@
 [
   {
     "name": "Goal Getter",
-    "description": "A simple, powerful goal-setting app that helps you turn ideas into action. Break big goals into clear steps, track progress over time, and stay motivated.",
+    "description": "Turn big goals into small steps, and see your progress across your whole life.",
     "icon": "/images/goal-getter.png",
-    "featured": true
+    "href": "/apps/goal-getter"
   },
   {
     "name": "Care About You",
-    "description": "A kindness generator that makes staying connected effortless. Get simple, thoughtful ideas to check in, show appreciation, and brighten someone's day.",
+    "description": "Get thoughtful kindness ideas for the people in your life, then put them on your calendar.",
     "icon": "/images/care-about-you.png",
-    "featured": true
-  },
-  {
-    "name": "Advocate's Compass",
-    "description": "A supportive planning application that helps individuals find their voice and navigate everyday advocacy. It guides users through personalized plans, clear goals, and real-life scenarios.",
-    "icon": "/images/advocates-compass.png",
-    "featured": true
+    "href": "/apps/care-about-you"
   },
   {
     "name": "Beat the Craving",
-    "description": "This app helps individuals overcome cravings by tracking their progress and providing coping strategies. Users can customize a list of options like praying or calling a friend.",
+    "description": "Build your own toolkit of coping strategies and count every craving you beat.",
     "icon": "/images/beat-the-craving.jpg",
-    "featured": false
+    "href": "/apps/beat-the-craving"
+  },
+  {
+    "name": "Advocate's Compass",
+    "description": "Learn to speak up for yourself, find the right words, and walk into meetings prepared.",
+    "icon": "/images/advocates-compass.png",
+    "href": "/apps/advocates-compass"
   }
 ]
