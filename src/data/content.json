@@ -39,63 +39,210 @@
   {
     "slug": "apps/goal-getter",
     "title": "Goal Getter | Apps for Change",
-    "description": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
-    "headline": "Big goals. Small steps. Real progress.",
-    "body": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
+    "description": "Goal Getter helps you set goals for every part of your life, break them into small steps, and see where you're thriving and where you need a little more care.",
+    "headline": "Your whole life, one clear view.",
+    "body": "You're juggling work, family, money, health, and maybe a dream you keep putting off. Goal Getter helps you set goals for every part of your life, break them into small steps, and see where you're thriving and where you need a little more care.",
     "label": "Goal Getter · Coming 2027",
-    "sections": [
+    "tagline": "Free. No ads. Never sold. Built by a nonprofit, for you.",
+    "actions": [
       {
-        "heading": "Who it's for",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Anyone working toward something: a healthier routine, a stronger relationship, a steadier budget, a new skill, or a fresh start."
-          }
-        ]
+        "text": "Get launch updates",
+        "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Goal%20Getter"
       },
       {
-        "heading": "What you can do",
+        "text": "Become a private tester",
+        "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Goal%20Getter",
+        "secondary": true
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Sound familiar?",
         "blocks": [
           {
             "type": "list",
             "items": [
-              "Set goals for your whole life. Health, relationships, money, learning, purpose, and more, not just one habit at a time.",
-              "Break it down. Turn each goal into action steps and milestones, so you always know what to do next.",
-              "Plan your week. Give your action steps dates so they fit into real life.",
-              "See it all on one dashboard. Check your progress on every goal at a glance.",
-              "Find your balance. See which areas of your life are thriving and which need attention.",
-              "Stay on track. Get reminders and check-ins that fit your schedule.",
-              "Look back and learn. Write short reflections on what's working.",
-              "Celebrate milestones. Mark the wins along the way."
+              "Your to-do list is long, but the things that matter most keep slipping.",
+              "You're doing well at work, but your friendships, health, or peace of mind are running on empty.",
+              "You've tried goal apps before, but tracking one habit at a time never showed you the bigger picture."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "You don't need to do more. You need to see your life clearly and take the next right step. That's what Goal Getter is for."
+          }
+        ]
+      },
+      {
+        "heading": "Twelve areas of a balanced life",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most goal apps focus on one habit at a time. Goal Getter grew out of our founding framework of eight areas of a balanced life. As we built it, we saw that a full life needed even more room, so the eight grew into twelve:"
+          },
+          {
+            "type": "p",
+            "text": "Physical · Emotional · Spiritual · Intellectual · Occupational · Financial · Social · Relationships · Hobbies · Leisure · Service · Environmental"
+          },
+          {
+            "type": "p",
+            "text": "Each area has its own color, so you can see at a glance where your energy is going. New to the framework? Tap the Life Areas tab to learn what each area means and why it matters."
+          }
+        ]
+      },
+      {
+        "heading": "How it works",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Explore your life areas. Start by reading about the twelve areas and thinking about which ones you want to grow.",
+              "Set your first goal. Name what you want, choose its life area, and break it into action steps and milestones you can actually do.",
+              "Put it on your calendar. Give each step a date so it fits into real life. Your steps, milestones, and due dates show up on the Goal Getter calendar, and you can add them to your phone's calendar too.",
+              "See the whole picture. Open your dashboard to see every goal, every area, and what needs your attention next."
             ]
           }
         ]
       },
       {
-        "heading": "Why it's different",
+        "heading": "Your dashboard, your day",
         "blocks": [
           {
+            "type": "h3",
+            "text": "Today's Updates"
+          },
+          {
             "type": "p",
-            "text": "Most goal apps track one habit at a time. Goal Getter grew out of our founding framework of eight areas of a balanced life, so it helps you see the whole picture."
+            "text": "Start each day knowing exactly what's on your plate: today's tasks, upcoming due dates, progress updates, and milestones you've reached."
+          },
+          {
+            "type": "h3",
+            "text": "Top Goals"
+          },
+          {
+            "type": "p",
+            "text": "Keep the goals that matter most front and center so they don't get lost in a busy week."
+          },
+          {
+            "type": "h3",
+            "text": "Find Your Balance"
+          },
+          {
+            "type": "p",
+            "text": "Twelve colored blocks, one for each life area, show how many goals you've set in each. If an area has no goals yet, it lights up yellow with a star, a gentle nudge that this part of your life could use some attention."
           }
         ]
       },
       {
-        "heading": "Your privacy",
+        "heading": "Stay steady, not stressed",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Reminders that fit your schedule. Check-ins come when they're helpful, not overwhelming.",
+              "Reflections. Write a few short notes on what's working and what you'd change. Small insights add up.",
+              "Celebrate your milestones. Every win shows up in Today's Updates, and if you'd like, Goal Getter will email you a note to celebrate it."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Why we built Goal Getter",
+        "blocks": [
+          {
+            "type": "quote",
+            "text": "“Taking a holistic approach to my own goals changed my life. Looking at every area, not just work or money, led me to more meaningful relationships, a healthier outlook, and the courage to start this nonprofit. I built Goal Getter so anyone can have that same clear view of their life, for free.”",
+            "cite": "— Sam, Founder, Apps for Change"
+          }
+        ]
+      },
+      {
+        "heading": "Free for good. Private for good.",
         "blocks": [
           {
             "type": "p",
-            "text": "Your goals are private. They're stored securely in your account, never sold, and never used for ads."
+            "text": "Goal Getter is made by Apps for Change, a Minnesota 501(c)(3) nonprofit. We don't sell subscriptions, run ads, or sell your data, and we never will."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Free. No trials, no premium tier, no paywall.",
+              "No ads. Your focus stays on your goals.",
+              "Never sold. Your goals are stored securely in your account and are never sold or used for advertising."
+            ]
           },
           {
             "type": "link",
             "text": "How we protect your data",
             "href": "/your-data"
+          }
+        ]
+      },
+      {
+        "heading": "Be one of the first",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Goal Getter launches in 2027 on iPhone and Android. Here's how to get involved before then:"
+          },
+          {
+            "type": "h3",
+            "text": "See it live at a town hall"
+          },
+          {
+            "type": "p",
+            "text": "We'll unveil Goal Getter at one of our 2027 virtual community town halls. Come see it, ask questions, and share ideas that shape what we build."
           },
           {
             "type": "link",
-            "text": "Tell me when Goal Getter launches",
+            "text": "Save me a spot",
+            "href": "mailto:info@appsforchange.org?subject=Town%20Hall%3A%20Goal%20Getter"
+          },
+          {
+            "type": "h3",
+            "text": "Become a private tester"
+          },
+          {
+            "type": "p",
+            "text": "Try Goal Getter before launch and help us make it better."
+          },
+          {
+            "type": "link",
+            "text": "Invite me to test",
+            "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Goal%20Getter"
+          },
+          {
+            "type": "h3",
+            "text": "Get launch updates"
+          },
+          {
+            "type": "p",
+            "text": "We'll let you know the moment it's available."
+          },
+          {
+            "type": "link",
+            "text": "Tell me when it launches",
             "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Goal%20Getter"
+          }
+        ]
+      },
+      {
+        "heading": "Questions",
+        "blocks": [
+          {
+            "type": "faq",
+            "question": "How much does Goal Getter cost?",
+            "text": "Nothing, now or later. It's free because we're a nonprofit funded by donations, not by our users."
+          },
+          {
+            "type": "faq",
+            "question": "When can I download it?",
+            "text": "Goal Getter launches in 2027. Sign up above to be the first to know, or join us as a private tester."
+          },
+          {
+            "type": "faq",
+            "question": "Do I need to set goals in all twelve areas?",
+            "text": "Not at all. Start with one goal. The dashboard simply shows you which areas you haven't explored yet, so you can grow at your own pace."
           }
         ]
       }
