@@ -493,10 +493,10 @@
   },
   {
     "slug": "town-halls",
-    "title": "Monthly Community Town Halls | Apps for Change",
-    "description": "Starting in early 2027, join our free monthly virtual town halls to preview new features, share app ideas, and help shape what we build.",
+    "title": "Quarterly Community Town Halls | Apps for Change",
+    "description": "Starting in early 2027, join our free quarterly virtual town halls to preview new features, share app ideas, and help shape what we build.",
     "headline": "You help decide what we build.",
-    "body": "Starting in early 2027, we'll host a free virtual town hall every month. It's your chance to see what's coming, share your ideas, and talk directly with the people building the apps.",
+    "body": "Starting in early 2027, we'll host a free virtual town hall every quarter. It's your chance to see what's coming, share your ideas, and talk directly with the people building the apps.",
     "label": "",
     "sections": [
       {
@@ -568,7 +568,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Our free monthly virtual town halls start in early 2027. Bring your questions and ideas."
+            "text": "Our free quarterly virtual town halls start in early 2027. Bring your questions and ideas."
           },
           {
             "type": "link",
@@ -809,7 +809,7 @@
             "type": "list",
             "items": [
               "Free forever, by design. We're a nonprofit with no owners, so we have no reason to sell data, show ads, or upsell. The promise is built into our structure.",
-              "Shaped by the people we serve. Our bylaws require that input from our monthly community town halls, starting in early 2027, goes to our Board.",
+              "Shaped by the people we serve. Our bylaws require that input from our quarterly community town halls, starting in early 2027, goes to our Board.",
               "Grounded in human services. Our founder brings years of experience in Minnesota human services, working alongside people navigating disability and recovery.",
               "Lean and practical. Free apps cost very little to share with one more person, so support goes further. We grow through community and referrals, not paid ads."
             ]
@@ -823,7 +823,7 @@
             "type": "list",
             "items": [
               "Finishing and launching all four apps on iPhone and Android in 2027",
-              "Community focus groups and monthly town halls that shape what we build",
+              "Community focus groups and quarterly town halls that shape what we build",
               "Legal and privacy review that keeps our data promises strong",
               "Hosting and app store costs that keep the apps available and free"
             ]
@@ -837,7 +837,7 @@
             "type": "list",
             "items": [
               "Launch all four apps on the Apple App Store and Google Play",
-              "Begin monthly virtual town halls in early 2027",
+              "Begin quarterly virtual town halls in early 2027",
               "Hold at least three community focus groups"
             ]
           }
@@ -949,6 +949,12 @@
                 "title": "Business Plan Summary",
                 "text": "Funder-facing business plan.",
                 "href": "/documents/afc-business-plan-summary-2026.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Program Logic Models",
+                "text": "How each of our four programs is designed to create change, and how we’ll measure it.",
+                "href": "/documents/afc-program-logic-models-2027.pdf",
                 "format": "PDF"
               }
             ]
