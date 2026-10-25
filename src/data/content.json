@@ -891,6 +891,108 @@
     ]
   },
   {
+    "slug": "transparency",
+    "title": "Transparency & Updates | Apps for Change",
+    "description": "Apps for Change governance documents, policies, IRS filing requests, and organizational updates.",
+    "label": "Transparency & Updates",
+    "headline": "Transparency",
+    "body": "Governance documents, policies, and organizational updates.",
+    "sections": [
+      {
+        "heading": "",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change is a Minnesota nonprofit and a 501(c)(3) tax-exempt organization. We build free, ad-free well-being apps, and we’ll never sell or monetize our users. We think that promise should come with open books, so this page shares the documents that guide how we operate."
+          },
+          {
+            "type": "p",
+            "text": "EIN: 41-4014098"
+          },
+          {
+            "type": "p",
+            "text": "Donations to Apps for Change are tax-deductible to the extent allowed by law."
+          }
+        ]
+      },
+      {
+        "heading": "Governance Documents",
+        "blocks": [
+          {
+            "type": "documents",
+            "documents": [
+              {
+                "title": "Bylaws",
+                "text": "How AFC is governed, including our commitment to community town halls.",
+                "href": "/documents/afc-bylaws.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Conflict of Interest Policy",
+                "text": "How board members and leaders disclose and manage conflicts.",
+                "href": "/documents/afc-conflict-of-interest-policy.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Whistleblower Policy",
+                "text": "How concerns can be raised safely and without retaliation.",
+                "href": "/documents/afc-whistleblower-policy.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Privacy Policy",
+                "text": "How our apps collect, store, and protect your information.",
+                "href": "/privacy",
+                "format": "Web page"
+              },
+              {
+                "title": "Business Plan Summary",
+                "text": "Funder-facing business plan.",
+                "href": "/documents/afc-business-plan-summary-2026.pdf",
+                "format": "PDF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "IRS Filings",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "To request a copy of any document, email info@appsforchange.org."
+          },
+          {
+            "type": "link",
+            "text": "Request a document",
+            "href": "mailto:info@appsforchange.org?subject=Document%20request"
+          }
+        ]
+      },
+      {
+        "heading": "Updates",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Last updated: October 2026"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Want to test early? Private tester spots are opening for upcoming apps. Email info@appsforchange.org.",
+              "Four apps in beta. Advocate’s Compass, Goal Getter, Care About You, and Beat the Craving are all in development and testing. (10/26)",
+              "2027 launches. Advocate’s Compass launches first, followed by Goal Getter, Care About You, and Beat the Craving. (10/26)",
+              "Town halls begin in 2027. Our quarterly virtual town halls start in Q1 2027. Each one will preview an app and gather your ideas. To get an invite, email sam@appsforchange.org. (10/26)",
+              "Google for Nonprofits. AFC was approved for Google for Nonprofits. (9/26)",
+              "EIN received. (2/26)",
+              "IRS determination letter received. (2/26)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "donate",
     "title": "Donate | Apps for Change",
     "description": "Your gift keeps our well-being apps free for everyone, with no ads and no paywalls. Apps for Change is a 501(c)(3) nonprofit, EIN 41-4014098.",
