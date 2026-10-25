@@ -11,191 +11,445 @@ import Footer from "../components/Footer.astro";
   <Navbar />
   <main id="main-content" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
     <h1 class="text-3xl sm:text-4xl mb-2">Privacy Policy</h1>
-    <p class="text-(--color-text-secondary) mb-8">Effective Date: October 10, 2026</p>
+    <p class="text-(--color-text-secondary) mb-2">Effective Date: October 24, 2026</p>
+    <p class="mb-8">
+      <a href="/documents/afc-privacy-policy.pdf" download class="text-(--color-accent) hover:underline">Download this policy (PDF)</a>
+    </p>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">Our Commitment to You</h2>
-      <p>
-        Apps for Change is a Minnesota-based 501(c)(3) nonprofit. We build free mobile apps to help people
-        reach goals, practice self-advocacy, stay connected, and build healthier habits. This policy explains
-        in plain language what each app stores, what is synced to our servers, and what is never collected. All four apps are planned for launch in 2027.
-      </p>
+      <h2 class="text-xl sm:text-2xl mb-3">Privacy at a Glance</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Our apps are free and have no ads.</li>
+        <li>We never sell your information or use it for advertising.</li>
+        <li>We never share your entries with employers, insurers, funders, or partner organizations.</li>
+        <li>Your entries are stored securely in your account in the cloud, so they’re there when you get a new phone.</li>
+        <li>Our team doesn’t read your entries, except to help with a support request you send us, when the law requires it, or to investigate a security problem.</li>
+        <li>Only one app uses AI, and only when you ask: Advocate’s Compass writes a script when you request one.</li>
+        <li>Surveys, reminder emails, calendar access, and AI are all optional.</li>
+        <li>You can delete any entry, or your whole account, at any time.</li>
+      </ul>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">1. Who We Are</h2>
       <p>
-        Apps for Change is a nonprofit organization incorporated in Minnesota. Our apps are free. We do not
-        sell, rent, or trade personal information, and we do not use your data for advertising.
+        Apps for Change is a Minnesota nonprofit corporation, tax-exempt under Section 501(c)(3) of the
+        Internal Revenue Code. We build free mobile apps that help people reach their goals, show kindness
+        to others and to themselves, get through cravings, and speak up for themselves. As a nonprofit with
+        no owners, we have no reason to sell your data, and we never will.
       </p>
       <p class="mt-2">
-        Website: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a>
+        This Privacy Policy explains what information we collect, how we use and protect it, and the choices
+        you have. It covers:
+      </p>
+      <ul class="list-disc pl-6 my-2 space-y-1">
+        <li>Our four mobile apps: Goal Getter, Care About You, Beat the Craving, and Advocate’s Compass, including test versions before each launch</li>
+        <li>Our website, appsforchange.org</li>
+        <li>The other ways you connect with us, such as email, our newsletter, donations, town halls, focus groups, and private testing</li>
+      </ul>
+      <p>
+        “We,” “us,” and “our” mean Apps for Change. “You” means anyone who uses our apps or website or
+        connects with us in these ways.
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">2. How Data Works in Each App</h2>
+      <h2 class="text-xl sm:text-2xl mb-3">2. How Each App Handles Your Information</h2>
       <p class="mb-4">
-        Our apps do <strong>not</strong> all work the same way. Please read the section for the app you use.
+        Each app uses an account. Your entries are stored in your account on our secure cloud servers, so
+        your information is there when you get a new phone or use more than one device.
       </p>
-
-      <h3 class="text-lg font-semibold mb-2">Advocate's Compass</h3>
-      <p class="mb-4">
-        An account is required. Meeting preparation, notes, learning progress, and preferences sync to our hosted servers. Advocate Now uses optional AI: when you ask for a script, what you type is sent to our AI service provider. Scripts are a starting point that you can edit.
-      </p>
+      <div class="table-scroll mb-4" tabindex="0" role="region" aria-label="How each app handles your information">
+        <table>
+          <thead>
+            <tr><th scope="col">App</th><th scope="col">Uses AI?</th><th scope="col">May ask your permission for</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Goal Getter</td><td>No</td><td>Calendar, to add the steps you choose; notifications, for reminders</td></tr>
+            <tr><td>Care About You</td><td>No</td><td>Calendar, to add the plans you choose</td></tr>
+            <tr><td>Beat the Craving</td><td>No</td><td>Nothing. It never sends notifications.</td></tr>
+            <tr><td>Advocate’s Compass</td><td>Only when you ask Advocate Now for a script</td><td>Notifications</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mb-4">None of our apps asks for your contacts, photos, or files. None asks for your location, either.</p>
 
       <h3 class="text-lg font-semibold mb-2">Goal Getter</h3>
-      <p class="mb-4">
-        Creating an account is required so your goals, milestones, tasks,
-        calendar items, and life-area progress can sync to our backend. That data is stored on our hosted
-        application server so it is available when you sign in on another device.
+      <p class="mb-2">
+        Goal Getter stores the goals you set and your plans to reach them. This may include your goals and
+        the life areas they belong to, action steps, milestones, due dates, reminders, check-ins, reflections,
+        and your progress.
       </p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li><strong>Your calendar (optional).</strong> Goal Getter adds your steps and milestones to your phone’s calendar. It asks your permission first and adds only what you choose.</li>
+        <li><strong>Milestone emails (optional).</strong> If you turn them on, Goal Getter emails your account email address a note to celebrate a milestone.</li>
+        <li><strong>No AI.</strong> Goal Getter has no AI features.</li>
+      </ul>
 
       <h3 class="text-lg font-semibold mb-2">Care About You</h3>
-      <p class="mb-4">
-        An account is required. Contacts you add, planned acts of kindness, and completion status sync to
-        our backend. Optional <strong>AI suggestions</strong> send the selected contact’s name, your notes,
-        and recent task history to a language-model provider so the app can suggest a next kindness. You
-        trigger this only when you tap to generate insights or suggestions.
+      <p class="mb-2">
+        Care About You stores your plans to show kindness to the people in your life and to yourself. This
+        may include the names you type in, short notes about the people you add (such as what they love to
+        do), the acts of kindness you plan and complete, ideas you save for later, dates and times, and your
+        monthly recap. You add people yourself. The app doesn’t read your phone’s contacts.
       </p>
+      <ul class="list-disc pl-6 mb-2 space-y-1">
+        <li><strong>No AI.</strong> Care About You doesn’t use AI. If we ever add AI suggestions, we’ll update this policy before they start, and they’ll run only when you ask.</li>
+        <li><strong>Your calendar (optional).</strong> Care About You asks your permission before it adds anything to your phone’s calendar, and it adds only the plans you choose. It doesn’t read or copy the other events on your calendar. Once a plan is on your calendar, your calendar app stores it, along with any service it syncs with, such as iCloud or Google Calendar. You can turn off calendar access at any time in your phone’s settings.</li>
+        <li><strong>Email reminders (optional).</strong> If you set them up, we email reminders about upcoming plans to your account email address. You can turn them off at any time.</li>
+      </ul>
+      <p class="mb-4">You don’t need to share private details about anyone. A first name and a few words are enough.</p>
 
       <h3 class="text-lg font-semibold mb-2">Beat the Craving</h3>
-      <p class="mb-4">
-        An account is required. Your craving counter and coping-option list (including custom options) sync
-        to our backend so they persist across devices. The counter increases when you choose a coping
-        option, not when you merely open the app. This is wellness tracking, not medical advice
-        and not a diagnostic tool.
+      <p class="mb-2">
+        Beat the Craving stores the tools and notes that help you get through cravings. This may include the
+        coping strategies you choose, edit, or add; your days-in-recovery counter; the cravings you log and
+        your cravings-beaten counter; and notes about your triggers, such as the time, the place, the people,
+        or the feeling, which the app uses to show you patterns.
+      </p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li><strong>No AI.</strong> Beat the Craving has no AI features, so your entries are never sent to an AI provider.</li>
+        <li><strong>No notifications.</strong> Beat the Craving never sends notifications, so nothing about it pops up on your lock screen.</li>
+        <li><strong>Your progress stays with you.</strong> The app has no way to share your counters, notes, or progress with other people.</li>
+        <li><strong>Outside help, one tap away.</strong> Some coping strategies open outside help. The AA button calls AA or opens an outside meeting finder. Calls go through your phone, and outside services have their own privacy policies.</li>
+        <li><strong>Keep it private on your phone.</strong> Anyone who can open your phone can open the app, so use your phone’s screen lock.</li>
+        <li><strong>Sensitive by default.</strong> We treat everything you enter in Beat the Craving as sensitive. See Section 8.</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold mb-2">Advocate’s Compass</h3>
+      <p class="mb-2">
+        Advocate’s Compass stores what you learn and the plans you make to speak up for yourself. This may
+        include lessons and practice you’ve finished, upcoming meetings, what you want to say and ask, notes
+        on what was decided and who will do what, and your Advocate Now requests and scripts.
+      </p>
+      <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li><strong>Advocate Now (optional AI).</strong> When you ask Advocate Now for a script, we send what you type to our AI provider to write it. Nothing is sent unless you ask. See Section 5.</li>
+        <li><strong>Personal by nature.</strong> Notes about health, disability, services and benefits, housing, work, or a child’s school can be sensitive. We protect them that way. See Section 8.</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold mb-2">Short surveys in every app</h3>
+      <p>
+        From time to time, each app may ask a few short questions, such as how prepared you felt after a
+        meeting or how you’ve been feeling lately. Answering is always up to you, and skipping a survey
+        doesn’t change how the app works for you. We use the answers only in totals, as described in
+        Section 4.
       </p>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">3. What Information We Collect</h2>
+      <p class="mb-4">We collect only what we need to run our apps, website, and programs.</p>
 
       <h3 class="text-lg font-semibold mb-2">Information you give us</h3>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Name and email, if you create an account (all four apps)</li>
-        <li>Content you enter in the app (goals, tasks, contacts, notes, coping options)</li>
-        <li>Messages you send to our support or idea inboxes</li>
+        <li><strong>Account information.</strong> Your email address, a name or username, and your password or other sign-in details. If you choose to sign in with Apple or Google, they share your name and email address with us.</li>
+        <li><strong>App content.</strong> The entries you make in our apps, described in Section 2, and your app settings, such as reminder choices.</li>
+        <li><strong>Survey answers.</strong> Your answers to the optional surveys in our apps.</li>
+        <li><strong>Messages to us.</strong> What you send when you email us for support, ask for launch updates, sign up for a town hall or a private test, share an idea, or give feedback.</li>
+        <li><strong>Newsletter.</strong> Your email address, and your first name if you give it, when you sign up for our newsletter.</li>
+        <li><strong>Town halls and focus groups.</strong> Your name (a first name is fine), your email address, and what you choose to share. We never record town halls. We record a focus group only with every participant’s consent, and we use recordings only for our internal notes.</li>
+        <li><strong>Private testing.</strong> If you test an app before it launches, your name, your email address, and the feedback you send us.</li>
+        <li><strong>Donations.</strong> If you donate on our website, our payment processor, Stripe, handles your payment. We receive details such as your name, email address, and the amount and date of your gift, so we can send your receipt and keep required records. We never receive your full card number.</li>
       </ul>
 
       <h3 class="text-lg font-semibold mb-2">Information collected automatically</h3>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Basic device and app version information needed to run the app</li>
-        <li>Crash or error reports in development builds (production apps should not send logs to third-party debug tools)</li>
-        <li>Website traffic on appsforchange.org may use standard hosting analytics</li>
+        <li><strong>Device information.</strong> Your device type, operating system version, and app version, so the app works properly.</li>
+        <li><strong>Log information.</strong> When an app connects to our servers, our app host’s systems record basic technical details, such as your IP address, the time, and the type of request. We use these to keep our services running and secure.</li>
+        <li><strong>Crash and error reports.</strong> If an app has a problem, we may receive a report about what went wrong. Some reports come from Apple or Google, if you’ve allowed your phone to share them with app developers.</li>
+        <li><strong>Website visits.</strong> See Section 13.</li>
       </ul>
 
-      <h3 class="text-lg font-semibold mb-2">Information we do not collect</h3>
+      <h3 class="text-lg font-semibold mb-2">Information we don’t collect</h3>
       <ul class="list-disc pl-6 space-y-1">
-        <li>Precise location</li>
-        <li>Your phone contacts, photos, or files (unless you later grant a permission we have not enabled today)</li>
-        <li>Payment card numbers in the apps (donations, when enabled, are processed by Stripe on this website)</li>
-        <li>Advertising identifiers for ads — we do not run ads</li>
+        <li>Your precise location</li>
+        <li>Your phone’s contacts, photos, or files</li>
+        <li>Advertising IDs or advertising profiles</li>
+        <li>Your payment card number (Stripe handles payments)</li>
       </ul>
     </section>
 
     <section class="mb-10">
       <h2 class="text-xl sm:text-2xl mb-3">4. How We Use Your Information</h2>
+      <p class="mb-2">We use your information only to:</p>
       <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Provide the features you asked for (sync, reminders you enable, AI suggestions you request)</li>
-        <li>Keep you signed in and recover your account</li>
-        <li>Fix bugs and improve the apps</li>
-        <li>Respond to support requests</li>
+        <li>Create and manage your account and let you sign in</li>
+        <li>Store your entries securely and make them available on your devices</li>
+        <li>Provide the features you choose, such as calendar plans, reminders, the emails you turn on, and the scripts you ask Advocate Now to write</li>
+        <li>Fix bugs, improve our apps, and keep our services secure</li>
+        <li>Answer your questions and support requests</li>
+        <li>Send the launch updates, newsletters, town hall details, and other messages you ask for</li>
+        <li>Run town halls, focus groups, and private tests</li>
+        <li>Process donations, send receipts, and keep required records</li>
+        <li>Measure our impact and report it to funders and our Board, using totals only</li>
+        <li>Follow the law</li>
       </ul>
-      <p>We do not sell, rent, or trade your personal information. We do not use it for advertising.</p>
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">5. Who Processes Data for Us</h2>
       <p class="mb-4">
-        We use service providers only to operate the apps and this website. They may process data only to
-        provide that service to us:
+        We don’t use your information for advertising, and we don’t sell, rent, or trade it. We never use your
+        entries to ask you for donations, and we never use them to train AI. We don’t share your entries or
+        survey answers with outside researchers or evaluators. If that ever changes, we’ll ask for your
+        permission first.
       </p>
-      <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li><strong>Application hosting / auth</strong> — All four apps use hosted servers for accounts and app content.</li>
-        <li><strong>AI (Care About You and Advocate's Compass)</strong> — optional suggestions send contact context, notes, and recent kindness history to an AI service provider; Advocate Now sends what you type when you request a script. Do not enter information you would not want a processor to see.</li>
-        <li><strong>Payments (website)</strong> — if donations are enabled, Stripe processes the payment. We do not store your full card number.</li>
-        <li><strong>Email</strong> — messages you send to support or info inboxes are handled as ordinary email.</li>
+      <h3 class="text-lg font-semibold mb-2">How we measure our impact</h3>
+      <p>
+        To learn whether our apps really help, we look at totals across everyone who uses them, such as how
+        many people use each app, how many milestones get completed, how many cravings people get through,
+        and the combined results of our optional surveys. These totals are counted automatically. Nobody on
+        our team reads your entries to make them. When we report to funders, our Board, or the public, we
+        share only totals that can’t identify anyone.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">5. How Our AI Feature Works</h2>
+      <p class="mb-4">Only one of our apps has an AI feature, and it runs only when you ask.</p>
+      <div class="table-scroll mb-4" tabindex="0" role="region" aria-label="How our AI feature works">
+        <table>
+          <thead>
+            <tr><th scope="col">App</th><th scope="col">When AI runs</th><th scope="col">What we send to our AI provider</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Advocate’s Compass</td><td>When you ask Advocate Now for a script</td><td>What you type to describe your situation</td></tr>
+            <tr><td>Goal Getter</td><td>Never</td><td>Nothing</td></tr>
+            <tr><td>Care About You</td><td>Never</td><td>Nothing</td></tr>
+            <tr><td>Beat the Craving</td><td>Never</td><td>Nothing</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Who receives it.</strong> Our AI provider is Anthropic, the company that makes Claude. Your request goes through our app host to Anthropic, which uses it to write your script and send it back.</li>
+        <li><strong>Not used to train AI.</strong> Anthropic’s commercial terms don’t allow it to train its AI models on content sent through its services. Our app host doesn’t keep what you send or use it to train AI, either.</li>
+        <li><strong>Your choice.</strong> If you don’t ask Advocate Now for a script, nothing is sent to our AI provider.</li>
+        <li><strong>Share only what’s needed.</strong> Leave out details the AI doesn’t need, like last names, diagnoses, ID numbers (such as a Social Security or Medicaid number), account numbers, or case numbers.</li>
+        <li><strong>AI can make mistakes.</strong> Scripts are a starting point. You know your situation best.</li>
+        <li><strong>No AI elsewhere without notice.</strong> Before any of our other apps uses AI, we’ll update this policy and tell you, and the AI will run only when you ask.</li>
       </ul>
-      <p>We may also disclose information if required by law, or to protect the safety of our users or the public.</p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">6. Data Storage and Security</h2>
+      <h2 class="text-xl sm:text-2xl mb-3">6. How We Share Your Information</h2>
+      <p class="mb-4">We share information only in the limited ways described here.</p>
+
+      <h3 class="text-lg font-semibold mb-2">Service providers</h3>
+      <p class="mb-4">
+        We use a small number of trusted providers to run our apps, website, and programs. They store or
+        process information for us under written agreements that let them use it only to provide their
+        services to us and require them to protect it.
+      </p>
+      <div class="table-scroll mb-4" tabindex="0" role="region" aria-label="Service providers">
+        <table>
+          <thead>
+            <tr><th scope="col">Provider</th><th scope="col">What they do for us</th><th scope="col">What they may receive</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Our app host (app.specular.dev)</td><td>Runs our apps’ servers, database, and account sign-in, and sends the app emails you turn on</td><td>Account information, app content, survey answers, and log information</td></tr>
+            <tr><td>Anthropic</td><td>Writes the Advocate Now scripts you ask for</td><td>Only what you type into an Advocate Now request (Section 5)</td></tr>
+            <tr><td>Google (Google Workspace for Nonprofits)</td><td>Runs our email, our forms, and our town hall video meetings on Google Meet</td><td>Messages and form responses you send us, and your name and email address when you join a town hall</td></tr>
+            <tr><td>Our newsletter service, Brevo</td><td>Sends our newsletter and launch updates</td><td>Your email address, and your first name if you give it</td></tr>
+            <tr><td>Stripe</td><td>Processes donations on our website</td><td>The payment and contact details you enter when you donate</td></tr>
+            <tr><td>Our website host, Vercel</td><td>Runs appsforchange.org</td><td>Basic website visit information</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mb-4">
+        Apple and Google run the app stores and your phone’s operating system. If you test an app before it
+        launches, Apple’s TestFlight or Google Play’s testing program delivers the test version and may share
+        your name, email address, crash reports, and any feedback you send through it with us. Their own
+        privacy policies cover how they handle information, including app downloads and notifications.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">Legal requirements and safety</h3>
+      <p class="mb-4">
+        We may disclose information if required by law, subpoena, or court order, or if we believe in good
+        faith that disclosure is needed to protect someone’s life or safety. Where the law allows, we’ll try
+        to tell you before we disclose your information in response to a legal demand.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">If our organization changes</h3>
+      <p class="mb-4">
+        If Apps for Change ever dissolves or transfers its programs, any transfer of user information would
+        go only to another charitable organization or public body, as our bylaws require, and only on terms
+        that protect your information consistent with this policy. We’ll tell you first, so you can get a
+        copy of your information or delete your account.
+      </p>
+
+      <h3 class="text-lg font-semibold mb-2">What we never do</h3>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Sell your personal information, to anyone, for any purpose</li>
+        <li>Share your entries or survey answers with employers, insurers, funders, or partner organizations</li>
+        <li>Use your information for advertising</li>
+        <li>Show your entries to other people. Our apps have no social features. If we ever add a way to share with others, it will be optional, and we’ll update this policy before it starts.</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">7. How We Store and Protect Your Information</h2>
       <p class="mb-3">
-        All four apps store account information and entries on our hosted servers.
+        Your account information and app content are stored on secure cloud servers run by our app host,
+        located in the United States. If you use our apps from another country, your information will be
+        stored and processed there.
       </p>
-      <p class="mb-3">
-        <strong>All four apps</strong> store account and app content on
-        our hosted servers so the apps can sync. We use HTTPS and restrict access to people who operate the
-        service. No system is perfectly secure; please use a unique password.
+      <p class="mb-2">We protect your information with reasonable administrative, technical, and physical safeguards, including:</p>
+      <ul class="list-disc pl-6 mb-3 space-y-1">
+        <li>Encryption of your information while it travels between your device and our servers and while it’s stored, once the host confirms encryption at rest</li>
+        <li>Access limited to the few people who need it to run and support our apps</li>
+        <li>A firm rule that our team doesn’t read your entries, except when you ask us to help with a support issue, when the law requires it, or when we need to investigate a security problem</li>
+      </ul>
+      <p class="mb-4">
+        No system is perfectly secure. Please use a strong password that you don’t use anywhere else, and use
+        your phone’s screen lock. If a security incident affects your personal information, we’ll notify you
+        and the appropriate authorities as the law requires.
       </p>
-      <p>
-        You can delete entries in the apps. To delete your account, email support@appsforchange.org. Uninstalling an app does not delete your account.
-      </p>
+
+      <h3 class="text-lg font-semibold mb-2">Need help right now?</h3>
+      <p class="mb-2">Our apps aren’t for emergencies, and our team doesn’t monitor what you enter in them.</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>In an emergency, call <a href="tel:911" class="text-(--color-accent) hover:underline">911</a> or your local emergency number.</li>
+        <li>In the U.S., call or text <a href="tel:988" class="text-(--color-accent) hover:underline">988</a> to reach the 988 Suicide &amp; Crisis Lifeline, free and open 24/7.</li>
+        <li>For free, confidential treatment referrals, call SAMHSA’s National Helpline at <a href="tel:18006624357" class="text-(--color-accent) hover:underline">1-800-662-4357</a>, open 24/7 in English and Spanish.</li>
+      </ul>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">7. Data Retention</h2>
-      <p>
-        Account data is kept while your account is open. When you request account deletion, we remove it from active systems within 30 days and from backups within 90 days, unless a limited record is required by law.
-      </p>
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">8. Children's Privacy</h2>
-      <p>
-        Our apps are for a general audience and are not directed at children under 13. We do not knowingly
-        collect personal information from children under 13. If you believe a child under 13 has created an
-        account, contact us and we will delete it.
-      </p>
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">9. Your Rights and Choices</h2>
-      <ul class="list-disc pl-6 mb-4 space-y-1">
-        <li>Access and review data you entered in the app</li>
-        <li>Correct or delete entries in the app</li>
-        <li>Sign out, or request account deletion by email</li>
-        <li>Decline optional AI features in Care About You and Advocate's Compass by not requesting a suggestion or script</li>
+      <h2 class="text-xl sm:text-2xl mb-3">8. Sensitive Information</h2>
+      <p class="mb-2">Some entries are more personal than others. We treat these as sensitive:</p>
+      <ul class="list-disc pl-6 mb-3 space-y-1">
+        <li>Everything in Beat the Craving, which may relate to substance use, recovery, or emotional well-being</li>
+        <li>Entries in Advocate’s Compass about health, disability, services and benefits, housing, work, legal matters, or a child’s school</li>
+        <li>Your answers to optional surveys about well-being, loneliness, or recovery</li>
+        <li>Health, mental health, or other personal details you choose to write in Goal Getter or Care About You</li>
       </ul>
       <p>
-        Privacy questions: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>.
-        We will respond within 30 days.
+        We use this information only to run the app for you and, in totals that can’t identify anyone, to
+        measure our impact. We never sell it, use it for advertising, or share it with partner organizations,
+        funders, employers, or insurers. Beat the Craving entries are never sent to an AI provider. From
+        Advocate’s Compass, only what you type into an Advocate Now request is sent, and only when you ask.
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">10. Cookies and This Website</h2>
+      <h2 class="text-xl sm:text-2xl mb-3">9. Information About Other People</h2>
       <p>
-        The mobile apps do not use advertising cookies. This website may use cookies or logs needed to run
-        the site and process donations. We do not use tracking for advertising.
+        Care About You and Advocate’s Compass let you write about other people, such as a friend you want to
+        check in with or a child you’re advocating for at school. Please include only what you need. We use
+        this information only to run the app for you. We never contact the people you write about, sell their
+        information, or use it for advertising.
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">11. Changes to This Policy</h2>
+      <h2 class="text-xl sm:text-2xl mb-3">10. Keeping and Deleting Your Information</h2>
+      <p class="mb-2">
+        We keep your account information and app content while your account is open, so it’s there when you
+        need it.
+      </p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Delete entries anytime.</strong> You can delete any entry inside the app.</li>
+        <li><strong>Delete your account.</strong> Use the app’s settings, or email support@appsforchange.org. We’ll delete your account, app content, and survey answers from our active systems within 30 days and from backups within 90 days, unless the law requires us to keep them longer. Totals we’ve already counted can’t identify you, so they stay in our reports.</li>
+        <li><strong>Each app separately.</strong> Each app has its own account, so deleting your account in one app doesn’t delete your accounts in our other apps.</li>
+        <li><strong>Uninstalling isn’t deleting.</strong> Removing an app from your phone doesn’t delete your account. To erase your information, delete your account.</li>
+        <li><strong>Calendar plans stay on your calendar.</strong> Plans and steps you added to your phone’s calendar stay there until you delete them in your calendar app.</li>
+        <li><strong>Inactive accounts.</strong> If an account is inactive for 24 months, we may delete it after first emailing you a notice.</li>
+        <li><strong>Technical data.</strong> We keep crash reports and logs only as long as needed to fix problems, and no longer than 12 months.</li>
+        <li><strong>Messages and sign-ups.</strong> We keep emails, support messages, and town hall and tester sign-ups for up to 3 years.</li>
+        <li><strong>Newsletter.</strong> We keep your newsletter sign-up until you unsubscribe.</li>
+        <li><strong>Town hall and focus group records.</strong> We keep summaries and consent forms for 3 years. We delete focus group recordings once our notes are finished.</li>
+        <li><strong>Donation records.</strong> We keep donation records for 7 years to meet tax and accounting requirements.</li>
+        <li><strong>Records of your requests.</strong> When you ask us to access or delete your information, we keep a record of your request and our response for 3 years after we complete it. The record never includes the deleted content.</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">11. Children and Teens</h2>
+      <p class="mb-2">
+        Our apps are for people 13 and older and aren’t directed at children under 13. We don’t knowingly
+        collect personal information from children under 13, consistent with the Children’s Online Privacy
+        Protection Act (COPPA). If we learn that a child under 13 has created an account or given us personal
+        information, we’ll delete it promptly. If you think this has happened, please email
+        support@appsforchange.org.
+      </p>
       <p>
-        When we update this policy we will change the effective date above. If we make a material change
-        (for example, adding a new cloud processor), we will note it here and, where required, in the app.
+        If you’re under 18, please use our apps with a parent’s or guardian’s involvement and consent. Town
+        halls are for adults, and teens 13 to 17 can join with a parent or guardian on the call. Private
+        testing is for adults only.
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl sm:text-2xl mb-3">12. Contact Us</h2>
+      <h2 class="text-xl sm:text-2xl mb-3">12. Your Rights and Choices</h2>
+      <p class="mb-2">You have the right to:</p>
+      <ul class="list-disc pl-6 mb-3 space-y-1">
+        <li>Access the information we hold about you, and get a copy of your app content</li>
+        <li>Correct inaccurate account information</li>
+        <li>Delete your entries or your whole account at any time</li>
+        <li>Ask questions about how we handle your information</li>
+      </ul>
+      <p class="mb-3">
+        You may have more rights under the privacy laws of the state or country where you live. To make a
+        request, email <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>.
+        We’ll verify your identity to protect your account and respond within 30 days. We’ll never treat you
+        differently for using your rights.
+      </p>
+      <p class="mb-2">You also have these choices:</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Notifications.</strong> Turn them off at any time in your phone’s settings.</li>
+        <li><strong>Calendar.</strong> Turn off calendar access at any time in your phone’s settings.</li>
+        <li><strong>App emails.</strong> Turn reminder and milestone emails off at any time in the app.</li>
+        <li><strong>Surveys.</strong> Answer them only if you want to.</li>
+        <li><strong>AI.</strong> Use Advocate Now only if you want to. Nothing goes to our AI provider unless you ask.</li>
+        <li><strong>Newsletter and other emails from us.</strong> Unsubscribe with the link in any newsletter, or ask us to stop sending launch updates or other messages at any time, and we will.</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">13. Our Website, Cookies, and Tracking</h2>
+      <p>
+        Our apps don’t use advertising trackers, advertising IDs, or cross-app tracking. Our website doesn’t
+        use advertising trackers either. It may use cookies or logs needed to run the site and process
+        donations, and basic analytics to count visits. Our newsletter doesn’t track whether you open it or
+        which links you click. We don’t track you for advertising, in our apps, on our website, or in our
+        emails.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">14. Links to Other Services</h2>
+      <p>
+        Our apps and website may link to outside websites and resources, such as crisis lines, AA, and
+        community services. Some coping strategies in Beat the Craving open these resources directly. We’re
+        not responsible for their privacy practices, so please review their policies.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">15. Changes to This Policy</h2>
+      <p>
+        We may update this policy from time to time. When we do, we’ll change the effective date at the top.
+        If we make a significant change, such as adding AI to another app, adding a new kind of service
+        provider, or adding a new way of sharing information, we’ll tell you in the app or by email before it
+        takes effect. We won’t use information we’ve already collected in a materially different way without
+        your consent.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl sm:text-2xl mb-3">16. Contact Us</h2>
+      <p class="mb-2">Questions, concerns, or privacy requests? Contact us:</p>
       <address class="not-italic leading-relaxed">
         <strong>Apps for Change</strong><br />
         A Minnesota 501(c)(3) Nonprofit Corporation<br />
-        Support / privacy: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a><br />
-        General: <a href="mailto:info@appsforchange.org" class="text-(--color-accent) hover:underline">info@appsforchange.org</a><br />
-        Website: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a><br />
+        Privacy and support: <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a><br />
+        General questions: <a href="mailto:info@appsforchange.org" class="text-(--color-accent) hover:underline">info@appsforchange.org</a><br />
+        Mail: 1670 S Robert St #131, West Saint Paul, MN 55118<br />
         Phone: 763-276-3958<br />
-        1670 S Robert St #131<br />
-        West Saint Paul, MN 55118
+        Website: <a href="https://appsforchange.org" class="text-(--color-accent) hover:underline">appsforchange.org</a>
       </address>
+      <p class="mt-4">
+        Need this policy in another format? We can send it in large print, as plain text for a screen reader,
+        or in another format that works for you. Just email
+        <a href="mailto:support@appsforchange.org" class="text-(--color-accent) hover:underline">support@appsforchange.org</a>.
+      </p>
     </section>
-
-    <p class="text-center text-(--color-text-secondary) italic mt-12">Apps for Change — Empowering Everyday People Through Technology</p>
   </main>
   <Footer />
 </BaseLayout>
