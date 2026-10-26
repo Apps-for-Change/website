@@ -922,12 +922,6 @@
             "type": "documents",
             "documents": [
               {
-                "title": "Bylaws",
-                "text": "How AFC is governed, including our commitment to community town halls.",
-                "href": "/documents/afc-bylaws.pdf",
-                "format": "PDF"
-              },
-              {
                 "title": "Conflict of Interest Policy",
                 "text": "How board members and leaders disclose and manage conflicts.",
                 "href": "/documents/afc-conflict-of-interest-policy.pdf",
@@ -958,6 +952,20 @@
                 "format": "PDF"
               }
             ]
+          }
+        ]
+      },
+      {
+        "heading": "Bylaws",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "To request a copy of any document, email info@appsforchange.org."
+          },
+          {
+            "type": "link",
+            "text": "Request a document",
+            "href": "mailto:info@appsforchange.org?subject=Document%20request"
           }
         ]
       },
