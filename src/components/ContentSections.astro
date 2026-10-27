@@ -3,7 +3,7 @@ import AppGrid from './AppGrid.astro';
 import DonateSection from './DonateSection.astro';
 import CrisisBox from './CrisisBox.astro';
 interface ListItem { text: string; linkText: string; href: string }
-interface Block { type: string; ordered?: boolean; items?: (string | ListItem)[]; text?: string; href?: string; question?: string; headers?: string[]; rows?: string[][] }
+interface Block { type: string; ordered?: boolean; items?: (string | ListItem)[]; text?: string; href?: string; question?: string; headers?: string[]; rows?: string[][]; documents?: { title: string; text: string; href: string; format: string }[] }
 interface Props { sections: { heading: string; blocks: Block[] }[] }
 const { sections } = Astro.props;
 ---
@@ -19,6 +19,7 @@ const { sections } = Astro.props;
     {block.type === 'faq-link' && <details><summary>{block.question}</summary><p><a class="content-link" href={block.href}>{block.text} →</a></p></details>}
     {block.type === 'faq' && <details><summary>{block.question}</summary><p>{block.text}</p></details>}
     {block.type === 'table' && <div class="table-scroll" tabindex="0" role="region" aria-label={section.heading}><table><caption class="sr-only">{section.heading}</caption><thead><tr>{block.headers?.map(h => <th scope="col">{h}</th>)}</tr></thead><tbody>{block.rows?.map(row => <tr>{row.map(cell => <td>{cell}</td>)}</tr>)}</tbody></table></div>}
+    {block.type === 'documents' && <ul class="document-list">{block.documents?.map(doc => <li><a class="content-link" href={doc.href} download={doc.format === 'PDF' ? '' : undefined}>{doc.title}</a> <span class="document-format">({doc.format})</span><p>{doc.text}</p></li>)}</ul>}
     {block.type === 'apps' && <AppGrid />}
     {block.type === 'donate' && <DonateSection />}
     {block.type === 'crisis' && <CrisisBox />}
