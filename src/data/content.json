@@ -104,17 +104,61 @@
   {
     "slug": "apps/care-about-you",
     "title": "Care About You | Apps for Change",
-    "description": "We all mean to check in, say thank you, or do something kind. Then life gets busy. Care About You gives you ideas for the people you care about and puts them on your calendar, so good intentions turn into action.",
-    "headline": "Kindness, on your calendar.",
-    "body": "We all mean to check in, say thank you, or do something kind. Then life gets busy. Care About You gives you ideas for the people you care about and puts them on your calendar, so good intentions turn into action.",
+    "description": "Be the friend you mean to be. Care About You helps you turn good intentions into small, real acts of kindness for the people in your life and for yourself.",
+    "headline": "Be the friend you mean to be.",
+    "body": "You think about the people you love all the time. You mean to call, send that note, or finally get coffee. Then the week fills up, and another month goes by. Care About You helps you turn those good intentions into small, real acts of kindness for the people in your life and for yourself.",
     "label": "Care About You · Coming 2027",
     "sections": [
       {
-        "heading": "Who it's for",
+        "heading": "",
         "blocks": [
           {
             "type": "p",
-            "text": "Anyone who wants to show up for friends, family, neighbors, and coworkers, and anyone who wants to make kindness a habit."
+            "text": "Free. No ads. Never sold. Built by a nonprofit, for you."
+          },
+          {
+            "type": "link",
+            "text": "Get launch updates",
+            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Care%20About%20You"
+          },
+          {
+            "type": "link",
+            "text": "Become a private tester",
+            "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Care%20About%20You"
+          }
+        ]
+      },
+      {
+        "heading": "Sound familiar?",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "You keep meaning to text that friend back. It's been three months.",
+              "You remember the birthday the day after.",
+              "Most of your conversations lately have been about logistics, not connection.",
+              "You take care of everyone else and forget to take care of yourself."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "You're not a bad friend. You're busy. Care About You makes it easier to show up."
+          }
+        ]
+      },
+      {
+        "heading": "How it works",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Choose who it's for. Plan something kind for someone in your life, or for yourself.",
+              "Pick what you'll do. Choose an action: coffee, lunch, dinner, a call, a walk, a written note, a compliment, a gift, help around the house, offering support, or something of your own.",
+              "Add a note if you'd like. A few words to remember why it matters.",
+              "Pick a day and time. Your plan shows up on your dashboard, and you can add it to your phone's calendar so it actually happens.",
+              "Do the kind thing. Then mark it done."
+            ]
           }
         ]
       },
@@ -124,13 +168,37 @@
           {
             "type": "list",
             "items": [
-              "Add the people who matter. Keep a short list of the people you want to show up for, with notes about what's going on in their lives.",
-              "Find ideas for them. Browse kindness ideas and save the ones you like for later.",
-              "Put it on your calendar. Add your plan to your phone's calendar so it actually happens.",
-              "Get optional email reminders about the plans you've made.",
-              "Track what you've done. Mark acts of kindness complete and look back on the good you've done. It's for you, not for likes.",
-              "Kindness for every budget. Get ideas that cost nothing at all."
+              "Keep your people close. Add the people who matter, with a note about what they love to do, so your plans feel personal.",
+              "Care for yourself, too. Self-care counts. Plan a walk, a quiet evening, or a break you've earned, right alongside your plans for others.",
+              "Find ideas when you're stuck. Browse kindness ideas by type: kind words, your time, small gifts, and acts of service.",
+              "Look beyond your circle. Find ideas for kindness toward neighbors, strangers, and your community.",
+              "Save ideas for later. Keep a list of ideas you want to come back to.",
+              "Kindness for every budget. Many ideas cost nothing at all.",
+              "Get gentle reminders. See upcoming plans on your dashboard, or choose to get reminders by email.",
+              "Look back on the good you've done. Tap Track What I've Done to see a monthly recap of the kindness you've shared with others and with yourself."
             ]
+          }
+        ]
+      },
+      {
+        "heading": "It's for you, not for likes.",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Care About You isn't a social network. There are no followers, no public feeds, and no one keeping score. Your kindness stays between you and the people you care about. Your monthly recap is just for you, a quiet reminder of the good you're putting into the world."
+          }
+        ]
+      },
+      {
+        "heading": "Why we built it",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“So many relationships today feel transactional. I built Care About You because I believe people would benefit from simple reminders to do kind things for others and for themselves. Small acts, done often, can change how we feel about each other and about ourselves.”"
+          },
+          {
+            "type": "p",
+            "text": "— Sam, Founder and Executive Director, Apps for Change"
           }
         ]
       },
@@ -139,7 +207,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Care About You doesn't use AI. The people and plans you add are stored securely in your account, never sold, and never used for ads. The app asks your permission before adding anything to your calendar, and it never reads your other events."
+            "text": "Your people, plans, and notes are private. They're stored securely in your account, never sold, and never used for ads. Care About You doesn't use AI. The app asks your permission before adding anything to your calendar, and it never reads your other events."
           },
           {
             "type": "p",
@@ -149,11 +217,40 @@
             "type": "link",
             "text": "How we protect your data",
             "href": "/your-data"
+          }
+        ]
+      },
+      {
+        "heading": "Be one of the first",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Care About You launches in 2027. Here's how to get involved before then:"
           },
           {
-            "type": "link",
-            "text": "Tell me when Care About You launches",
-            "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Care%20About%20You"
+            "type": "list",
+            "items": [
+              {
+                "text": "Get launch updates. We'll let you know the moment it's available.",
+                "linkText": "Tell me when it launches",
+                "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Care%20About%20You"
+              },
+              {
+                "text": "Become a private tester. Try it early and help us make it better.",
+                "linkText": "Invite me to test",
+                "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Care%20About%20You"
+              },
+              {
+                "text": "Join a focus group. Share what you'd want from a kindness app.",
+                "linkText": "I'm interested",
+                "href": "mailto:info@appsforchange.org?subject=Focus%20Group%3A%20Care%20About%20You"
+              },
+              {
+                "text": "See it at a town hall. We'll show Care About You at a virtual community town hall in 2027, where you can share feedback and your own app ideas.",
+                "linkText": "Sign me up",
+                "href": "mailto:sam@appsforchange.org?subject=Town%20Hall%3A%20Care%20About%20You"
+              }
+            ]
           }
         ]
       }

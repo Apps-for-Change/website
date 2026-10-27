@@ -2,7 +2,8 @@
 import AppGrid from './AppGrid.astro';
 import DonateSection from './DonateSection.astro';
 import CrisisBox from './CrisisBox.astro';
-interface Block { type: string; items?: string[]; text?: string; href?: string; question?: string; headers?: string[]; rows?: string[][]; documents?: { title: string; text: string; href: string; format: string }[] }
+interface ListItem { text: string; linkText: string; href: string }
+interface Block { type: string; ordered?: boolean; items?: (string | ListItem)[]; text?: string; href?: string; question?: string; headers?: string[]; rows?: string[][]; documents?: { title: string; text: string; href: string; format: string }[] }
 interface Props { sections: { heading: string; blocks: Block[] }[] }
 const { sections } = Astro.props;
 ---
@@ -10,7 +11,10 @@ const { sections } = Astro.props;
   {section.heading && <h2>{section.heading}</h2>}
   {section.blocks.map(block => <>
     {block.type === 'p' && <p>{block.text}</p>}
-    {block.type === 'list' && <ul>{block.items?.map(item => <li>{item}</li>)}</ul>}
+    {block.type === 'list' && (() => {
+      const List = block.ordered ? 'ol' : 'ul';
+      return <List>{block.items?.map(item => typeof item === 'string' ? <li>{item}</li> : <li>{item.text}{' '}<a class="content-link" href={item.href}>{item.linkText} <span aria-hidden="true">→</span></a></li>)}</List>;
+    })()}
     {block.type === 'link' && <p><a class="content-link" href={block.href}>{block.text} <span aria-hidden="true">→</span></a></p>}
     {block.type === 'faq-link' && <details><summary>{block.question}</summary><p><a class="content-link" href={block.href}>{block.text} →</a></p></details>}
     {block.type === 'faq' && <details><summary>{block.question}</summary><p>{block.text}</p></details>}
