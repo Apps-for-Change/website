@@ -272,9 +272,9 @@
             "type": "list",
             "items": [
               "Add the people who matter. Keep a short list of the people you want to show up for, with notes about what's going on in their lives.",
-              "Get ideas made just for them. Tap for a suggestion, and AI offers a thoughtful next act of kindness based on your notes.",
+              "Find ideas for them. Browse kindness ideas and save the ones you like for later.",
               "Put it on your calendar. Add your plan to your phone's calendar so it actually happens.",
-              "Get gentle reminders to check in with the people you care about.",
+              "Get optional email reminders about the plans you've made.",
               "Track what you've done. Mark acts of kindness complete and look back on the good you've done. It's for you, not for likes.",
               "Kindness for every budget. Get ideas that cost nothing at all."
             ]
@@ -282,11 +282,11 @@
         ]
       },
       {
-        "heading": "About the AI",
+        "heading": "Your privacy",
         "blocks": [
           {
             "type": "p",
-            "text": "AI suggestions are optional. They run only when you tap to ask. When you do, the person's name, your notes, and your recent kindness history are sent to our AI service provider to create the suggestion. This information is never sold or used for ads"
+            "text": "Care About You doesn't use AI. The people and plans you add are stored securely in your account, never sold, and never used for ads. The app asks your permission before adding anything to your calendar, and it never reads your other events."
           },
           {
             "type": "p",
@@ -684,7 +684,7 @@
                 "Care About You",
                 "Yes",
                 "Your account, on our secure cloud servers",
-                "Yes, for optional kindness suggestions"
+                "No"
               ],
               [
                 "Beat the Craving",
@@ -711,7 +711,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Only what each app needs to work: your email and a name or username for your account, the entries you create, and basic technical details like device type and crash reports. We don't collect your precise location, and we don't build advertising profiles. Care About You asks your permission before adding anything to your calendar."
+            "text": "Only what each app needs to work: your email and a name or username for your account, the entries you create, and basic technical details like device type and crash reports. We don't collect your precise location, and we don't build advertising profiles. Goal Getter and Care About You ask your permission before adding anything to your calendar."
           }
         ]
       },
@@ -738,7 +738,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Two apps use AI, and only when you ask. In Care About You, tapping for a suggestion sends the person's name, your notes, and your recent kindness history to our AI service provider. In Advocate's Compass, asking Advocate Now for a script sends what you type. Goal Getter and Beat the Craving don't use AI at all."
+            "text": "Only one app uses AI, and only when you ask. In Advocate's Compass, asking Advocate Now for a script sends what you type to our AI service provider. Goal Getter, Care About You, and Beat the Craving don't use AI at all."
           }
         ]
       },
@@ -758,7 +758,7 @@
             "type": "list",
             "items": [
               "Delete any entry inside the app at any time.",
-              "Delete your whole account by emailing support@appsforchange.org. We remove it from our active systems within 30 days and from backups within 90 days.",
+              "Delete your whole account in the app's settings, or by emailing support@appsforchange.org. We remove it from our active systems within 30 days and from backups within 90 days.",
               "Uninstalling an app doesn't delete your account. To erase your information, delete your account."
             ]
           }
@@ -800,10 +800,10 @@
   },
   {
     "slug": "town-halls",
-    "title": "Monthly Community Town Halls | Apps for Change",
-    "description": "Starting in early 2027, join our free monthly virtual town halls to preview new features, share app ideas, and help shape what we build.",
+    "title": "Quarterly Community Town Halls | Apps for Change",
+    "description": "Starting in early 2027, join our free quarterly virtual town halls to preview new features, share app ideas, and help shape what we build.",
     "headline": "You help decide what we build.",
-    "body": "Starting in early 2027, we'll host a free virtual town hall every month. It's your chance to see what's coming, share your ideas, and talk directly with the people building the apps.",
+    "body": "Starting in early 2027, we'll host a free virtual town hall every quarter. It's your chance to see what's coming, share your ideas, and talk directly with the people building the apps.",
     "label": "",
     "sections": [
       {
@@ -875,7 +875,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Our free monthly virtual town halls start in early 2027. Bring your questions and ideas."
+            "text": "Our free quarterly virtual town halls start in early 2027. Bring your questions and ideas."
           },
           {
             "type": "link",
@@ -1116,7 +1116,7 @@
             "type": "list",
             "items": [
               "Free forever, by design. We're a nonprofit with no owners, so we have no reason to sell data, show ads, or upsell. The promise is built into our structure.",
-              "Shaped by the people we serve. Our bylaws require that input from our monthly community town halls, starting in early 2027, goes to our Board.",
+              "Shaped by the people we serve. Our bylaws require that input from our quarterly community town halls, starting in early 2027, goes to our Board.",
               "Grounded in human services. Our founder brings years of experience in Minnesota human services, working alongside people navigating disability and recovery.",
               "Lean and practical. Free apps cost very little to share with one more person, so support goes further. We grow through community and referrals, not paid ads."
             ]
@@ -1130,7 +1130,7 @@
             "type": "list",
             "items": [
               "Finishing and launching all four apps on iPhone and Android in 2027",
-              "Community focus groups and monthly town halls that shape what we build",
+              "Community focus groups and quarterly town halls that shape what we build",
               "Legal and privacy review that keeps our data promises strong",
               "Hosting and app store costs that keep the apps available and free"
             ]
@@ -1144,7 +1144,7 @@
             "type": "list",
             "items": [
               "Launch all four apps on the Apple App Store and Google Play",
-              "Begin monthly virtual town halls in early 2027",
+              "Begin quarterly virtual town halls in early 2027",
               "Hold at least three community focus groups"
             ]
           }
@@ -1192,6 +1192,122 @@
           {
             "type": "p",
             "text": "Minnesota nonprofit corporation · 501(c)(3) · EIN 41-4014098 · Governed by a three-member Board of Directors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "transparency",
+    "title": "Transparency & Updates | Apps for Change",
+    "description": "Apps for Change governance documents, policies, IRS filing requests, and organizational updates.",
+    "label": "Transparency & Updates",
+    "headline": "Transparency",
+    "body": "Governance documents, policies, and organizational updates.",
+    "sections": [
+      {
+        "heading": "",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apps for Change is a Minnesota nonprofit and a 501(c)(3) tax-exempt organization. We build free, ad-free well-being apps, and we’ll never sell or monetize our users. We think that promise should come with open books, so this page shares the documents that guide how we operate."
+          },
+          {
+            "type": "p",
+            "text": "EIN: 41-4014098"
+          },
+          {
+            "type": "p",
+            "text": "Donations to Apps for Change are tax-deductible to the extent allowed by law."
+          }
+        ]
+      },
+      {
+        "heading": "Governance Documents",
+        "blocks": [
+          {
+            "type": "documents",
+            "documents": [
+              {
+                "title": "Conflict of Interest Policy",
+                "text": "How board members and leaders disclose and manage conflicts.",
+                "href": "/documents/afc-conflict-of-interest-policy.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Whistleblower Policy",
+                "text": "How concerns can be raised safely and without retaliation.",
+                "href": "/documents/afc-whistleblower-policy.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Privacy Policy",
+                "text": "How our apps collect, store, and protect your information.",
+                "href": "/documents/afc-privacy-policy.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Business Plan Summary",
+                "text": "Funder-facing business plan.",
+                "href": "/documents/afc-business-plan-summary-2026.pdf",
+                "format": "PDF"
+              },
+              {
+                "title": "Program Logic Models",
+                "text": "How each of our four programs is designed to create change, and how we’ll measure it.",
+                "href": "/documents/afc-program-logic-models-2027.pdf",
+                "format": "PDF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bylaws",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "To request a copy of any document, email info@appsforchange.org."
+          },
+          {
+            "type": "link",
+            "text": "Request a document",
+            "href": "mailto:info@appsforchange.org?subject=Document%20request"
+          }
+        ]
+      },
+      {
+        "heading": "IRS Filings",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "To request a copy of any document, email info@appsforchange.org."
+          },
+          {
+            "type": "link",
+            "text": "Request a document",
+            "href": "mailto:info@appsforchange.org?subject=Document%20request"
+          }
+        ]
+      },
+      {
+        "heading": "Updates",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Last updated: October 2026"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Want to test early? Private tester spots are opening for upcoming apps. Email info@appsforchange.org.",
+              "Four apps in beta. Advocate’s Compass, Goal Getter, Care About You, and Beat the Craving are all in development and testing. (10/26)",
+              "2027 launches. Advocate’s Compass launches first, followed by Goal Getter, Care About You, and Beat the Craving. (10/26)",
+              "Town halls begin in 2027. Our quarterly virtual town halls start in Q1 2027. Each one will preview an app and gather your ideas. To get an invite, email sam@appsforchange.org. (10/26)",
+              "Google for Nonprofits. AFC was approved for Google for Nonprofits. (9/26)",
+              "EIN received. (2/26)",
+              "IRS determination letter received. (2/26)"
+            ]
           }
         ]
       }
@@ -1350,12 +1466,12 @@
           {
             "type": "faq",
             "question": "Which apps use AI?",
-            "text": "Care About You uses AI for optional kindness suggestions, and Advocate's Compass uses it for Advocate Now scripts. Goal Getter and Beat the Craving don't use AI."
+            "text": "Only Advocate's Compass, for Advocate Now scripts, and only when you ask for one. Goal Getter, Care About You, and Beat the Craving don't use AI."
           },
           {
             "type": "faq",
             "question": "How do I delete my information?",
-            "text": "Delete any entry in the app anytime. To delete your whole account, email support@appsforchange.org. Uninstalling an app doesn't delete your account."
+            "text": "Delete any entry in the app anytime. To delete your whole account, use the app's settings or email support@appsforchange.org. Uninstalling an app doesn't delete your account."
           },
           {
             "type": "faq",
