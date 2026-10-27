@@ -39,63 +39,210 @@
   {
     "slug": "apps/goal-getter",
     "title": "Goal Getter | Apps for Change",
-    "description": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
-    "headline": "Big goals. Small steps. Real progress.",
-    "body": "Goal Getter helps you set goals for every area of your life, break them into steps you can actually do, and see how far you've come.",
+    "description": "Goal Getter helps you set goals for every part of your life, break them into small steps, and see where you're thriving and where you need a little more care.",
+    "headline": "Your whole life, one clear view.",
+    "body": "You're juggling work, family, money, health, and maybe a dream you keep putting off. Goal Getter helps you set goals for every part of your life, break them into small steps, and see where you're thriving and where you need a little more care.",
     "label": "Goal Getter · Coming 2027",
-    "sections": [
+    "tagline": "Free. No ads. Never sold. Built by a nonprofit, for you.",
+    "actions": [
       {
-        "heading": "Who it's for",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Anyone working toward something: a healthier routine, a stronger relationship, a steadier budget, a new skill, or a fresh start."
-          }
-        ]
+        "text": "Get launch updates",
+        "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Goal%20Getter"
       },
       {
-        "heading": "What you can do",
+        "text": "Become a private tester",
+        "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Goal%20Getter",
+        "secondary": true
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Sound familiar?",
         "blocks": [
           {
             "type": "list",
             "items": [
-              "Set goals for your whole life. Health, relationships, money, learning, purpose, and more, not just one habit at a time.",
-              "Break it down. Turn each goal into action steps and milestones, so you always know what to do next.",
-              "Plan your week. Give your action steps dates so they fit into real life.",
-              "See it all on one dashboard. Check your progress on every goal at a glance.",
-              "Find your balance. See which areas of your life are thriving and which need attention.",
-              "Stay on track. Get reminders and check-ins that fit your schedule.",
-              "Look back and learn. Write short reflections on what's working.",
-              "Celebrate milestones. Mark the wins along the way."
+              "Your to-do list is long, but the things that matter most keep slipping.",
+              "You're doing well at work, but your friendships, health, or peace of mind are running on empty.",
+              "You've tried goal apps before, but tracking one habit at a time never showed you the bigger picture."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "You don't need to do more. You need to see your life clearly and take the next right step. That's what Goal Getter is for."
+          }
+        ]
+      },
+      {
+        "heading": "Twelve areas of a balanced life",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most goal apps focus on one habit at a time. Goal Getter grew out of our founding framework of eight areas of a balanced life. As we built it, we saw that a full life needed even more room, so the eight grew into twelve:"
+          },
+          {
+            "type": "p",
+            "text": "Physical · Emotional · Spiritual · Intellectual · Occupational · Financial · Social · Relationships · Hobbies · Leisure · Service · Environmental"
+          },
+          {
+            "type": "p",
+            "text": "Each area has its own color, so you can see at a glance where your energy is going. New to the framework? Tap the Life Areas tab to learn what each area means and why it matters."
+          }
+        ]
+      },
+      {
+        "heading": "How it works",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Explore your life areas. Start by reading about the twelve areas and thinking about which ones you want to grow.",
+              "Set your first goal. Name what you want, choose its life area, and break it into action steps and milestones you can actually do.",
+              "Put it on your calendar. Give each step a date so it fits into real life. Your steps, milestones, and due dates show up on the Goal Getter calendar, and you can add them to your phone's calendar too.",
+              "See the whole picture. Open your dashboard to see every goal, every area, and what needs your attention next."
             ]
           }
         ]
       },
       {
-        "heading": "Why it's different",
+        "heading": "Your dashboard, your day",
         "blocks": [
           {
+            "type": "h3",
+            "text": "Today's Updates"
+          },
+          {
             "type": "p",
-            "text": "Most goal apps track one habit at a time. Goal Getter grew out of our founding framework of eight areas of a balanced life, so it helps you see the whole picture."
+            "text": "Start each day knowing exactly what's on your plate: today's tasks, upcoming due dates, progress updates, and milestones you've reached."
+          },
+          {
+            "type": "h3",
+            "text": "Top Goals"
+          },
+          {
+            "type": "p",
+            "text": "Keep the goals that matter most front and center so they don't get lost in a busy week."
+          },
+          {
+            "type": "h3",
+            "text": "Find Your Balance"
+          },
+          {
+            "type": "p",
+            "text": "Twelve colored blocks, one for each life area, show how many goals you've set in each. If an area has no goals yet, it lights up yellow with a star, a gentle nudge that this part of your life could use some attention."
           }
         ]
       },
       {
-        "heading": "Your privacy",
+        "heading": "Stay steady, not stressed",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Reminders that fit your schedule. Check-ins come when they're helpful, not overwhelming.",
+              "Reflections. Write a few short notes on what's working and what you'd change. Small insights add up.",
+              "Celebrate your milestones. Every win shows up in Today's Updates, and if you'd like, Goal Getter will email you a note to celebrate it."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Why we built Goal Getter",
+        "blocks": [
+          {
+            "type": "quote",
+            "text": "“Taking a holistic approach to my own goals changed my life. Looking at every area, not just work or money, led me to more meaningful relationships, a healthier outlook, and the courage to start this nonprofit. I built Goal Getter so anyone can have that same clear view of their life, for free.”",
+            "cite": "— Sam, Founder, Apps for Change"
+          }
+        ]
+      },
+      {
+        "heading": "Free for good. Private for good.",
         "blocks": [
           {
             "type": "p",
-            "text": "Your goals are private. They're stored securely in your account, never sold, and never used for ads."
+            "text": "Goal Getter is made by Apps for Change, a Minnesota 501(c)(3) nonprofit. We don't sell subscriptions, run ads, or sell your data, and we never will."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Free. No trials, no premium tier, no paywall.",
+              "No ads. Your focus stays on your goals.",
+              "Never sold. Your goals are stored securely in your account and are never sold or used for advertising."
+            ]
           },
           {
             "type": "link",
             "text": "How we protect your data",
             "href": "/your-data"
+          }
+        ]
+      },
+      {
+        "heading": "Be one of the first",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Goal Getter launches in 2027 on iPhone and Android. Here's how to get involved before then:"
+          },
+          {
+            "type": "h3",
+            "text": "See it live at a town hall"
+          },
+          {
+            "type": "p",
+            "text": "We'll unveil Goal Getter at one of our 2027 virtual community town halls. Come see it, ask questions, and share ideas that shape what we build."
           },
           {
             "type": "link",
-            "text": "Tell me when Goal Getter launches",
+            "text": "Save me a spot",
+            "href": "mailto:info@appsforchange.org?subject=Town%20Hall%3A%20Goal%20Getter"
+          },
+          {
+            "type": "h3",
+            "text": "Become a private tester"
+          },
+          {
+            "type": "p",
+            "text": "Try Goal Getter before launch and help us make it better."
+          },
+          {
+            "type": "link",
+            "text": "Invite me to test",
+            "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Goal%20Getter"
+          },
+          {
+            "type": "h3",
+            "text": "Get launch updates"
+          },
+          {
+            "type": "p",
+            "text": "We'll let you know the moment it's available."
+          },
+          {
+            "type": "link",
+            "text": "Tell me when it launches",
             "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Goal%20Getter"
+          }
+        ]
+      },
+      {
+        "heading": "Questions",
+        "blocks": [
+          {
+            "type": "faq",
+            "question": "How much does Goal Getter cost?",
+            "text": "Nothing, now or later. It's free because we're a nonprofit funded by donations, not by our users."
+          },
+          {
+            "type": "faq",
+            "question": "When can I download it?",
+            "text": "Goal Getter launches in 2027. Sign up above to be the first to know, or join us as a private tester."
+          },
+          {
+            "type": "faq",
+            "question": "Do I need to set goals in all twelve areas?",
+            "text": "Not at all. Start with one goal. The dashboard simply shows you which areas you haven't explored yet, so you can grow at your own pace."
           }
         ]
       }
@@ -259,66 +406,145 @@
   {
     "slug": "apps/beat-the-craving",
     "title": "Beat the Craving | Apps for Change",
-    "description": "Cravings come in waves. They build, peak, and pass. Beat the Craving helps you ride out each one with coping strategies you choose, and helps you stick with them one day at a time.",
-    "headline": "When a craving hits, you'll have a plan.",
-    "body": "Cravings come in waves. They build, peak, and pass. Beat the Craving helps you ride out each one with coping strategies you choose, and helps you stick with them one day at a time.",
+    "description": "Cravings pass. Beat the Craving puts your coping strategies one tap away, counts every craving you beat, and helps you learn your triggers. Free, private, and judgment-free.",
+    "headline": "Cravings pass. You'll have a plan for every one.",
+    "body": "The first weeks of recovery are the hardest, and cravings don't wait for a good time. Beat the Craving puts the coping strategies you trust one tap away, counts every craving you beat, and helps you see what sets them off. Your plan, ready when you need it.",
     "label": "Beat the Craving · Coming 2027",
+    "tagline": "Free. No ads. Never sold. Built by a nonprofit, for you.",
+    "actions": [
+      {
+        "text": "Get launch updates",
+        "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Beat%20the%20Craving"
+      },
+      {
+        "text": "Become a private tester",
+        "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Beat%20the%20Craving",
+        "secondary": true
+      }
+    ],
     "sections": [
       {
-        "heading": "Who it's for",
+        "heading": "",
         "blocks": [
           {
-            "type": "p",
-            "text": "People in recovery, people cutting back on alcohol, nicotine, or other substances, and anyone who wants a private, judgment-free tool for hard moments."
+            "type": "link",
+            "text": "Need help right now? Go to crisis resources",
+            "href": "#crisis-heading"
           }
         ]
       },
       {
-        "heading": "What you can do",
+        "heading": "Sound familiar?",
         "blocks": [
           {
             "type": "list",
             "items": [
-              "Build your coping toolkit. Choose from a list of coping options or add your own: take a walk, pray, call a friend, breathe, or something that's yours alone.",
-              "Get to it fast. Open the app in a hard moment and go straight to your strategies, plus quick grounding, breathing, and distraction exercises.",
-              "Count every craving you beat. Each time you choose a coping option instead, your counter goes up. Watch your wins add up.",
-              "Ride out the wave. A simple timer helps you hold on while a craving passes.",
-              "Spot your triggers. Note what was happening, like the time, the place, or the feeling, and start to see patterns.",
-              "Stay accountable. Set a daily commitment and check in with yourself.",
-              "Reflect and grow. Write down what helped, so you know what to reach for next time."
+              "A craving hits late at night, and nobody's around to talk you through it.",
+              "You know what helps. In the moment, it's hard to remember.",
+              "You're counting days, but the hard moments in between don't get counted at all.",
+              "You don't want another app that sends you notifications, judges you, or asks for money."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Willpower alone is a lot to ask. You need a plan you can reach in seconds. That's what Beat the Craving is for."
+          }
+        ]
+      },
+      {
+        "heading": "How it works",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Open the app. Your coping strategies are right on the first screen. No menus to dig through.",
+              "Pick one and do it. Take a walk, breathe, call someone, pray, or reach for anything else on your list. Some strategies open straight to outside help, like calling or finding an AA meeting near you.",
+              "Count the win. Every time you choose a coping strategy instead, your counter goes up.",
+              "Learn your patterns. Note what set the craving off, and start to see when and where they tend to hit."
             ]
           }
         ]
       },
       {
-        "heading": "No AI, by design",
+        "heading": "Your toolkit, ready to go",
         "blocks": [
           {
             "type": "p",
-            "text": "Beat the Craving has no AI features. Everything in it comes from you: your strategies, your words, your plan."
+            "text": "Beat the Craving comes with coping strategies people in recovery rely on:"
+          },
+          {
+            "type": "p",
+            "text": "Take a walk · Pray · Call a friend · Breathe · Play a game · Take a shower · Grounding exercise · Distraction game"
+          },
+          {
+            "type": "p",
+            "text": "Make it yours. Edit any strategy, remove what doesn't fit, and add the ones that work for you. Your toolkit should look like your recovery, not anyone else's."
           }
         ]
       },
       {
-        "heading": "Your privacy",
+        "heading": "Track what matters",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Days in recovery"
+          },
+          {
+            "type": "p",
+            "text": "Watch your days add up on a simple counter."
+          },
+          {
+            "type": "h3",
+            "text": "Cravings beaten"
+          },
+          {
+            "type": "p",
+            "text": "Every craving you ride out is a win. Your counter goes up each time you choose a coping strategy, so you can see how much strength you've already shown."
+          },
+          {
+            "type": "h3",
+            "text": "Triggers and patterns"
+          },
+          {
+            "type": "p",
+            "text": "Log what was happening: the time, the place, how you felt, and who you were with, or write it in your own words. Over time, Beat the Craving shows your patterns, like cravings that hit most in the evening, so you can plan ahead for them."
+          }
+        ]
+      },
+      {
+        "heading": "No notifications. No AI. No judgment.",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "No notifications, ever. Beat the Craving never sends alerts, so nothing about your recovery pops up on your lock screen.",
+              "No AI, by design. Everything in the app comes from you: your strategies, your words, your plan.",
+              "Any path to recovery. 12-step, faith-based, counseling, medication-assisted treatment, or cutting back. Beat the Craving works alongside whatever is working for you.",
+              "Alcohol, nicotine, or other drugs. If cravings are part of your story, this app is for you."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Free for good. Private for good.",
         "blocks": [
           {
             "type": "p",
-            "text": "What you enter here is treated as sensitive information. It's stored securely in your account and never sold, never used for ads, and never shared with employers, insurers, funders, or partner organizations. Our team doesn't read your entries, and you can delete them anytime."
+            "text": "Beat the Craving is made by Apps for Change, a Minnesota 501(c)(3) nonprofit. Help should never sit behind a paywall, and your recovery should never be someone else's business."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Free. No trials, no premium tier, no paywall. Every tool is free, including crisis resources.",
+              "No ads. Ever.",
+              "Treated as sensitive. What you enter is stored securely in your account and never sold, never used for ads, and never shared with employers, insurers, funders, or partner organizations.",
+              "Yours to control. Our team doesn't read your entries, and you can delete them anytime."
+            ]
           },
           {
             "type": "link",
             "text": "How we protect your data",
             "href": "/your-data"
-          }
-        ]
-      },
-      {
-        "heading": "Free means free",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Every tool in Beat the Craving is free, including crisis resources. Help will never sit behind a paywall."
           }
         ]
       },
@@ -331,11 +557,92 @@
           },
           {
             "type": "crisis"
+          }
+        ]
+      },
+      {
+        "heading": "Be one of the first",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Beat the Craving launches in 2027 on iPhone and Android. Here's how to get involved before then:"
+          },
+          {
+            "type": "h3",
+            "text": "See it live at a town hall"
+          },
+          {
+            "type": "p",
+            "text": "We'll unveil Beat the Craving at one of our 2027 virtual community town halls. Come see it, ask questions, and share ideas that shape what we build."
           },
           {
             "type": "link",
-            "text": "Tell me when Beat the Craving launches",
+            "text": "Save me a spot",
+            "href": "mailto:sam@appsforchange.org?subject=Town%20Hall%3A%20Beat%20the%20Craving"
+          },
+          {
+            "type": "h3",
+            "text": "Become a private tester"
+          },
+          {
+            "type": "p",
+            "text": "Try Beat the Craving before launch and help us make it better."
+          },
+          {
+            "type": "link",
+            "text": "Invite me to test",
+            "href": "mailto:info@appsforchange.org?subject=Private%20Tester%3A%20Beat%20the%20Craving"
+          },
+          {
+            "type": "h3",
+            "text": "Join a focus group"
+          },
+          {
+            "type": "p",
+            "text": "Tell us what would help you most in a hard moment. Your experience shapes the app."
+          },
+          {
+            "type": "link",
+            "text": "I'm interested",
+            "href": "mailto:info@appsforchange.org?subject=Focus%20Group%3A%20Beat%20the%20Craving"
+          },
+          {
+            "type": "h3",
+            "text": "Get launch updates"
+          },
+          {
+            "type": "p",
+            "text": "We'll let you know the moment it's available."
+          },
+          {
+            "type": "link",
+            "text": "Tell me when it launches",
             "href": "mailto:info@appsforchange.org?subject=Launch%20updates%3A%20Beat%20the%20Craving"
+          }
+        ]
+      },
+      {
+        "heading": "Questions",
+        "blocks": [
+          {
+            "type": "faq",
+            "question": "How much does Beat the Craving cost?",
+            "text": "Nothing, now or later. It's free because we're a nonprofit funded by donations, not by our users."
+          },
+          {
+            "type": "faq",
+            "question": "Does it work with my recovery program?",
+            "text": "Yes. Beat the Craving doesn't follow one method. Use it alongside a 12-step group, your faith, counseling, medication-assisted treatment, or your own plan to cut back."
+          },
+          {
+            "type": "faq",
+            "question": "Will anyone know I'm using it?",
+            "text": "The app never sends notifications, and we never share your entries with anyone. Beat the Craving doesn't have its own passcode, so keep your phone's lock screen turned on."
+          },
+          {
+            "type": "faq",
+            "question": "Is this a replacement for treatment?",
+            "text": "No. It's a self-help tool for hard moments. If you need treatment, call SAMHSA's National Helpline at 1-800-662-4357 for free, confidential referrals, 24/7."
           }
         ]
       }

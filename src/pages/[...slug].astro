@@ -19,6 +19,8 @@ const app = apps.find(app => app.href === '/' + page.slug);
       {page.label && <p class="eyebrow">{page.label}</p>}
       <h1>{page.headline}</h1>
       {page.body && <p class="lead">{page.body}</p>}
+      {page.tagline && <p class="tagline">{page.tagline}</p>}
+      {page.actions && <div class="actions">{page.actions.map(action => <a class={action.secondary ? 'button secondary' : 'button'} href={action.href}>{action.text} <span aria-hidden="true">→</span></a>)}</div>}
     </header>
     <ContentSections sections={page.sections} />
   </main>

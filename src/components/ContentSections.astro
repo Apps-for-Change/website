@@ -3,7 +3,7 @@ import AppGrid from './AppGrid.astro';
 import DonateSection from './DonateSection.astro';
 import CrisisBox from './CrisisBox.astro';
 interface ListItem { text: string; linkText: string; href: string }
-interface Block { type: string; ordered?: boolean; items?: (string | ListItem)[]; text?: string; href?: string; question?: string; headers?: string[]; rows?: string[][]; documents?: { title: string; text: string; href: string; format: string }[] }
+interface Block { type: string; ordered?: boolean; items?: (string | ListItem)[]; text?: string; href?: string; question?: string; cite?: string; headers?: string[]; rows?: string[][]; documents?: { title: string; text: string; href: string; format: string }[] }
 interface Props { sections: { heading: string; blocks: Block[] }[] }
 const { sections } = Astro.props;
 ---
@@ -11,6 +11,9 @@ const { sections } = Astro.props;
   {section.heading && <h2>{section.heading}</h2>}
   {section.blocks.map(block => <>
     {block.type === 'p' && <p>{block.text}</p>}
+    {block.type === 'h3' && <h3>{block.text}</h3>}
+    {block.type === 'ol' && <ol>{block.items?.map(item => <li>{item}</li>)}</ol>}
+    {block.type === 'quote' && <figure><blockquote>{block.text}</blockquote>{block.cite && <figcaption>{block.cite}</figcaption>}</figure>}
     {block.type === 'list' && (() => {
       const List = block.ordered ? 'ol' : 'ul';
       return <List>{block.items?.map(item => typeof item === 'string' ? <li>{item}</li> : <li>{item.text}{' '}<a class="content-link" href={item.href}>{item.linkText} <span aria-hidden="true">→</span></a></li>)}</List>;
