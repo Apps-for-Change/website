@@ -1,10 +1,12 @@
 ---
+import NewsletterSignup from './NewsletterSignup.astro';
 const year = new Date().getFullYear();
-const links = [['Our Apps','/apps'],['Your Data','/your-data'],['Town Halls','/town-halls'],['Get Involved','/get-involved'],['About','/about'],['For Funders','/funders'],['Transparency & Updates','/transparency'],['Donate','/donate'],['Support','/support'],['Privacy Policy','/privacy'],['Terms of Service','mailto:info@appsforchange.org?subject=Terms%20of%20Service']];
+const links = [['Our Apps','/apps'],['Your Data','/your-data'],['Town Halls','/town-halls'],['Get Involved','/get-involved'],['Newsletter','/newsletter'],['About','/about'],['For Funders','/funders'],['Transparency & Updates','/transparency'],['Donate','/donate'],['Support','/support'],['Privacy Policy','/privacy'],['Terms of Service','mailto:info@appsforchange.org?subject=Terms%20of%20Service']];
 ---
 <footer class="site-footer"><div class="shell footer-grid">
   <div><a href="/"><img src="/images/afc-logo-small.png" alt="Apps for Change logo" width="48" height="48" loading="lazy" /></a><p class="footer-tagline">Free Apps. Real Change. Community-Powered.</p><p>Apps for Change is a Minnesota 501(c)(3) nonprofit. EIN 41-4014098.</p><address>1670 S Robert Street #131<br />West Saint Paul, MN 55118</address></div>
   <div><h2>Contact us</h2><p>General questions: <a href="mailto:info@appsforchange.org">info@appsforchange.org</a></p><p>App support: <a href="mailto:support@appsforchange.org">support@appsforchange.org</a></p><p>Town hall sign-ups: <a href="mailto:sam@appsforchange.org?subject=Town%20Hall">sam@appsforchange.org</a></p><p>In crisis? Call or text <a href="tel:988">988</a>. In an emergency, call <a href="tel:911">911</a>.</p><button id="share-page" type="button">Share</button><p id="share-status" role="status"></p></div>
+  <div><h2>Get our quarterly newsletter</h2><NewsletterSignup variant="footer" /></div>
   <nav aria-label="Footer navigation"><h2>Explore</h2><ul>{links.map(([label,href]) => <li><a href={href}>{label}</a></li>)}</ul></nav>
 </div><p class="copyright">© {year} Apps for Change. All rights reserved.</p></footer>
 <script>
