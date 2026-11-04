@@ -20,3 +20,4 @@
 - [ ] Add App Store / Play URLs in `src/data/apps.json` when listings go live
 - [ ] Restore reviews in `src/data/reviews.json` after stores exist
 - [ ] Inventory leftover WordPress pages for redirects
+- [ ] Newsletter: create Brevo list + double opt-in template, set BREVO_API_KEY, BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID in Vercel, turn off open/click tracking
