@@ -1346,7 +1346,7 @@
               {
                 "title": "Business Plan Summary",
                 "text": "Funder-facing business plan.",
-                "href": "/documents/afc-business-plan-summary-2026.pdf",
+                "href": "/documents/afc-business-plan-summary-2027.pdf",
                 "format": "PDF"
               },
               {
@@ -1404,12 +1404,13 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Last updated: October 2026"
+            "text": "Last updated: November 2026"
           },
           {
             "type": "list",
             "items": [
               "Want to test early? Private tester spots are opening for upcoming apps. Email info@appsforchange.org.",
+              "Google Ad Grants. AFC was approved for Google Ad Grants. (11/26)",
               "Four apps in beta. Advocate’s Compass, Goal Getter, Care About You, and Beat the Craving are all in development and testing. (10/26)",
               "2027 launches. Advocate’s Compass launches first, followed by Goal Getter, Care About You, and Beat the Craving. (10/26)",
               "Town halls begin in 2027. Our quarterly virtual town halls start in Q1 2027. Each one will preview an app and gather your ideas. To get an invite, email sam@appsforchange.org. (10/26)",
